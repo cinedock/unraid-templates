@@ -8,8 +8,9 @@ It does not scan, copy or modify media files.
 
 ## Installation
 
-Once accepted into Community Applications, search for **CineDock** in the Unraid Apps tab. Until
-then, this repository is the canonical template and submission source.
+The Community Applications submission was auto-approved on 6 August 2026. CineDock will become
+searchable in the Unraid Apps tab after the next catalog build publishes. This repository is the
+canonical template and submission source.
 
 After installing, open `http://YOUR-UNRAID-IP:8945` and follow the setup wizard.
 
