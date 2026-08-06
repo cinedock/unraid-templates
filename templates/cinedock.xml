@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>CineDock</Name>
+  <Repository>ghcr.io/cinedock/cinedock:latest</Repository>
+  <Registry>https://ghcr.io/cinedock/cinedock</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/cinedock/unraid-templates/issues</Support>
+  <Project>https://github.com/cinedock/unraid-templates</Project>
+  <Overview>A cinematic, television-first interface for the Emby or Jellyfin server you already run. CineDock uses your existing users and libraries and includes a plain-English setup wizard.</Overview>
+  <Description>CineDock gives an existing Emby or Jellyfin server a polished interface for televisions, phones and browsers. It does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
+  <Category>MediaServer:Video</Category>
+  <WebUI>http://[IP]:[PORT:8945]</WebUI>
+  <Icon>https://raw.githubusercontent.com/cinedock/unraid-templates/main/cinedock-icon.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/cinedock/unraid-templates/main/templates/cinedock.xml</TemplateURL>
+  <ExtraParams/>
+  <PostArgs/>
+  <DonateText/>
+  <DonateLink/>
+  <Config Name="Web port" Target="8945" Default="8945" Mode="tcp" Description="The port you open in your browser to use CineDock." Type="Port" Display="always" Required="true" Mask="false">8945</Config>
+  <Config Name="Config folder" Target="/config" Default="/mnt/user/appdata/cinedock" Mode="rw" Description="Where CineDock stores its server connection and small caches." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cinedock</Config>
+  <Config Name="TMDB API key (optional)" Target="TMDB_API_KEY" Default="" Mode="" Description="Optional. A free TMDB key adds actor biographies, filmographies and trailer fallback. CineDock works without it, and it can also be added later in Settings." Type="Variable" Display="always" Required="false" Mask="true"></Config>
+</Container>
