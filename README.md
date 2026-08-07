@@ -2,7 +2,7 @@
 
 Community Applications metadata and the Unraid Docker template for CineDock.
 
-CineDock is a television-first interface for the Emby or Jellyfin server you already run. It uses
+CineDock is a television-first interface for the Emby, Jellyfin or Plex server you already run. It uses
 your existing server users, libraries, playback, transcoding, watched state and resume positions.
 It does not scan, copy or modify media files.
 

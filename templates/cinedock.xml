@@ -9,8 +9,8 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/cinedock/unraid-templates/issues</Support>
   <Project>https://github.com/cinedock/unraid-templates</Project>
-  <Overview>A cinematic, television-first interface for the Emby or Jellyfin server you already run. CineDock uses your existing users and libraries and includes a plain-English setup wizard.</Overview>
-  <Description>CineDock gives an existing Emby or Jellyfin server a polished interface for televisions, phones and browsers. It does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
+  <Overview>A cinematic, television-first interface for the Emby, Jellyfin or Plex server you already run. CineDock uses your existing users and libraries and includes a plain-English setup wizard.</Overview>
+  <Description>CineDock gives an existing Emby, Jellyfin or Plex server a polished interface for televisions, phones and browsers. It does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
   <Category>MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:8945]</WebUI>
   <Icon>https://raw.githubusercontent.com/cinedock/unraid-templates/main/cinedock-icon.png</Icon>
