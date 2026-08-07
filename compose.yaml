@@ -1,0 +1,14 @@
+services:
+  cinedock:
+    image: ghcr.io/cinedock/cinedock:latest
+    container_name: cinedock
+    restart: unless-stopped
+    ports:
+      - "8945:8945"
+    environment:
+      TMDB_API_KEY: "${TMDB_API_KEY:-}"
+    volumes:
+      - cinedock_config:/config
+
+volumes:
+  cinedock_config:
