@@ -1,0 +1,70 @@
+name: TV app or playback problem
+description: Trouble installing the APK, using the D-pad, playing media, audio or subtitles.
+title: "[TV/Playback]: "
+labels: ["support", "tv-app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe one problem per report. **Never paste passwords, API keys, access tokens or server addresses.**
+  - type: dropdown
+    id: device
+    attributes:
+      label: TV device
+      options: [Fire TV, Nvidia Shield, Android TV, Google TV, Zidoo, Other Android-based player]
+    validations:
+      required: true
+  - type: input
+    id: device_model
+    attributes:
+      label: Device model
+      placeholder: Fire TV Stick 4K Max
+    validations:
+      required: true
+  - type: input
+    id: apk_version
+    attributes:
+      label: CineDock TV app version
+      placeholder: 0.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Problem area
+      options: [APK installation, Connecting to CineDock, D-pad navigation, Video playback, Audio or audio tracks, Subtitles, Chapters or seeking, HDR or Dolby Vision, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected and whether the same title works in your media server's own app.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Relevant media details
+      description: Optional. Codec, resolution, HDR type, audio format/channel count and subtitle format are useful. Do not include filenames containing private information.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open…\n2. Play…\n3. Select…"
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and server addresses.
+          required: true

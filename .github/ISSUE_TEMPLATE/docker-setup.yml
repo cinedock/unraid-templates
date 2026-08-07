@@ -1,0 +1,58 @@
+name: Docker or setup problem
+description: Trouble installing the container or connecting Emby, Jellyfin or Plex.
+title: "[Docker/Setup]: "
+labels: ["support", "docker"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve CineDock. **Never paste passwords, API keys, access tokens, public server addresses or complete configuration files.**
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex, Not connected yet]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CineDock version
+      description: Shown in CineDock or on the Docker image tag.
+      placeholder: 4.0.1
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where did it fail?
+      options: [Community Apps installation, Container start, Opening the web page, Testing the server connection, Choosing a user, Loading the library, Updating CineDock]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and the exact message shown. Redact private details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open…\n2. Select…\n3. See…"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant container log lines
+      description: Optional. Paste only the lines around the error after removing secrets and addresses.
+      render: shell
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and private/public server addresses.
+          required: true

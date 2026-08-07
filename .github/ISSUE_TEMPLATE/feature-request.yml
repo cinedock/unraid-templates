@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest an improvement to CineDock or its TV app.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like CineDock to do?
+      description: Describe the result from a viewer's point of view.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this be useful?
+      description: Tell us when you would use it and what is difficult today.
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where should it work?
+      options: [Everywhere, Web interface, TV app, Docker/setup, Emby, Jellyfin, Plex]
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example or mock-up
+      description: Optional. Add a screenshot, sketch or example from another app if it helps explain the idea.
