@@ -23,3 +23,8 @@ installation, template and application support.
 
 The optional Android TV preview is published separately at
 [CineDock Downloads](https://github.com/cinedock/downloads/releases).
+
+## Support development
+
+CineDock is free. If it is useful to you, you can optionally
+[support its continued development](https://buymeacoffee.com/cinedock).

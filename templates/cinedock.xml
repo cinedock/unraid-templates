@@ -17,8 +17,8 @@
   <TemplateURL>https://raw.githubusercontent.com/cinedock/unraid-templates/main/templates/cinedock.xml</TemplateURL>
   <ExtraParams/>
   <PostArgs/>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Enjoying CineDock? Support its continued development.</DonateText>
+  <DonateLink>https://buymeacoffee.com/cinedock</DonateLink>
   <Config Name="Web port" Target="8945" Default="8945" Mode="tcp" Description="The port you open in your browser to use CineDock." Type="Port" Display="always" Required="true" Mask="false">8945</Config>
   <Config Name="Config folder" Target="/config" Default="/mnt/user/appdata/cinedock" Mode="rw" Description="Where CineDock stores its server connection and small caches." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cinedock</Config>
   <Config Name="TMDB API key (optional)" Target="TMDB_API_KEY" Default="" Mode="" Description="Optional. A free TMDB key adds actor biographies, filmographies and trailer fallback. CineDock works without it, and it can also be added later in Settings." Type="Variable" Display="always" Required="false" Mask="true"></Config>
