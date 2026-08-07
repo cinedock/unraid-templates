@@ -27,13 +27,17 @@ Open `http://YOUR-DOCKER-HOST:8945` and follow the setup wizard. The same Compos
 as a Portainer Stack, a Synology Container Manager Project, or a QNAP Container Station
 Application. CineDock's settings are retained in the `cinedock_config` Docker volume.
 
+The Compose file uses `ghcr.io/cinedock/cinedock:latest`. The identical multi-platform image is
+also mirrored publicly as [`getcinedock/cinedock:latest`](https://hub.docker.com/r/getcinedock/cinedock)
+on Docker Hub.
+
 - **Portainer:** open **Stacks**, add a stack, and paste or upload `compose.yaml`.
 - **Synology DSM 7.2:** open **Container Manager > Project**, create a project, and select
   `compose.yaml` as its source.
 - **QNAP:** open **Container Station > Create > Create Application**, then paste `compose.yaml`.
 
-CasaOS packaging will follow after the common Compose installation has been tested on both amd64
-and arm64 hardware.
+The CasaOS package has passed its local validator and is awaiting inclusion through
+[CasaOS AppStore pull request #998](https://github.com/IceWhaleTech/CasaOS-AppStore/pull/998).
 
 ## Support
 
