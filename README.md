@@ -27,6 +27,11 @@ Open `http://YOUR-DOCKER-HOST:8945` and follow the setup wizard. The same Compos
 as a Portainer Stack, a Synology Container Manager Project, or a QNAP Container Station
 Application. CineDock's settings are retained in the `cinedock_config` Docker volume.
 
+Optional server/credential pairs (`EMBY_SERVER_URL` + `EMBY_API_KEY`, `JELLYFIN_SERVER_URL` +
+`JELLYFIN_API_KEY`, or advanced `PLEX_SERVER_URL` + `PLEX_TOKEN`) keep
+server credentials in the container; leave the television credential field blank when the matching
+variable is configured. Plex account linking remains the recommended Plex setup route.
+
 The Compose file uses `ghcr.io/cinedock/cinedock:latest`. The identical multi-platform image is
 also mirrored publicly as [`getcinedock/cinedock:latest`](https://hub.docker.com/r/getcinedock/cinedock)
 on Docker Hub.
@@ -46,8 +51,10 @@ installation, template and application support.
 
 ## TV app
 
-The optional Android TV preview is published separately at
-[CineDock Downloads](https://github.com/cinedock/downloads/releases).
+The Android TV app is published separately at
+[CineDock Downloads](https://github.com/cinedock/downloads/releases). It is verified on Fire TV
+and Nvidia Shield. Other certified Android TV/Google TV devices are expected to work but are not
+all device-tested; Zidoo and generic/non-certified Android boxes are currently unsupported.
 
 ## Support development
 
