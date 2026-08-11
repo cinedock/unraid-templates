@@ -3,6 +3,11 @@
 Community Applications metadata, the Unraid Docker template and the portable Docker Compose file
 for CineDock.
 
+## Rediscover your library.
+
+**CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV,
+on an Amazon Fire TV Stick, or in a browser on your computer or tablet.**
+
 CineDock is a television-first interface for the Emby, Jellyfin or Plex server you already run. It uses
 your existing server users, libraries, playback, transcoding, watched state and resume positions.
 It does not scan, copy or modify media files.
@@ -51,10 +56,9 @@ installation, template and application support.
 
 ## TV app
 
-The Android TV app is published separately at
-[CineDock Downloads](https://github.com/cinedock/downloads/releases). It is verified on Fire TV
-and Nvidia Shield. Other certified Android TV/Google TV devices are expected to work but are not
-all device-tested; Zidoo and generic/non-certified Android boxes are currently unsupported.
+The CineDock TV app is published separately at
+[CineDock Downloads](https://github.com/cinedock/downloads/releases). It is tested on Amazon Fire TV
+devices and NVIDIA Shield TV.
 
 ## Support development
 
