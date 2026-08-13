@@ -49,6 +49,11 @@ on Docker Hub.
 The CasaOS package has passed its local validator and is awaiting inclusion through
 [CasaOS AppStore pull request #998](https://github.com/IceWhaleTech/CasaOS-AppStore/pull/998).
 
+## Release history
+
+See the [CineDock changelog](CHANGELOG.md) for user-visible changes in every published container
+release since the Unraid Community Applications launch.
+
 ## Support
 
 Use this repository's [issue tracker](https://github.com/cinedock/unraid-templates/issues) for
