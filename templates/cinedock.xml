@@ -8,9 +8,9 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/cinedock/unraid-templates/issues</Support>
-  <Project>https://github.com/cinedock/unraid-templates</Project>
-  <Overview>Your media server. A completely new way to enjoy it. Breathe new life into Plex, Emby or Jellyfin with a cinematic experience for televisions, phones and browsers.</Overview>
-  <Description>CineDock gives an existing Emby, Jellyfin or Plex server a polished interface for televisions, phones and browsers. It does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
+  <Project>https://cinedock.tv/</Project>
+  <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
+  <Description>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet. CineDock does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
   <Category>MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:8945]</WebUI>
   <Icon>https://raw.githubusercontent.com/cinedock/unraid-templates/main/cinedock-icon.png</Icon>
