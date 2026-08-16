@@ -1,6 +1,6 @@
-name: TV app or playback problem
+name: Fire TV / Shield app or playback problem
 description: Trouble installing the APK, using the D-pad, playing media, audio or subtitles.
-title: "[TV/Playback]: "
+title: "[Fire TV-Shield/Playback]: "
 labels: ["support", "tv-app"]
 body:
   - type: markdown
