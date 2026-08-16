@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an improvement to CineDock or its TV app.
+description: Suggest an improvement to CineDock or its Fire TV / Shield app.
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
@@ -21,7 +21,7 @@ body:
     id: surface
     attributes:
       label: Where should it work?
-      options: [Everywhere, Web interface, TV app, Docker/setup, Emby, Jellyfin, Plex]
+      options: [Everywhere, Web interface, Fire TV / Shield app, Docker/setup, Emby, Jellyfin, Plex]
     validations:
       required: true
   - type: textarea

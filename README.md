@@ -62,9 +62,9 @@ release since the Unraid Community Applications launch.
 Use this repository's [issue tracker](https://github.com/cinedock/unraid-templates/issues) for
 installation, template and application support.
 
-## TV app
+## Fire TV / Shield app
 
-The CineDock TV app is published separately at
+The CineDock Fire TV / Shield app is published separately at
 [CineDock Downloads](https://github.com/cinedock/downloads/releases). It is tested on Amazon Fire TV
 devices and NVIDIA Shield TV.
 
