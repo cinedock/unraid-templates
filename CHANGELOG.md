@@ -4,6 +4,18 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## Fire TV / Shield app 0.2.3 — 16 August 2026
+
+A new APK. Installs over any earlier version in place (same signing certificate); your saved
+CineDock address is kept.
+
+- Fixed the app closing mid-film on 1 GB Fire TV Sticks (Fire TV Stick HD): the player could run
+  out of memory because the app was limited to 128 MB of Java heap while holding both the
+  interface and up to three minutes of buffered video. The app now requests the large heap and,
+  on low-memory devices, buffers 30–90 seconds instead of 50–180 seconds.
+- The container is unchanged; the interface still comes from it, so this APK does not need
+  reinstalling for container updates.
+
 ## 4.3.0 — 16 August 2026
 
 Major feature release: browse your whole library.
