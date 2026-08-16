@@ -10,6 +10,25 @@
   <Support>https://github.com/cinedock/unraid-templates/issues</Support>
   <Project>https://github.com/cinedock/unraid-templates</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
+  <Changes>
+### 4.3.0 (16 August 2026)
+- Browse All: every library as a full poster grid (sort, unwatched and genre filters), paged and windowed for large libraries.
+- A-Z rail, Genres page, and "See all" on New Releases / Recently Added / genre rows.
+- Library sub-menu on the second line of the top menu; inset billboard on every tab.
+- Fire TV fixes: rail inside overscan, "#"/"A" off-screen, grid opening low, lagging letter marker.
+- Works on Emby, Jellyfin and Plex. TV app unchanged (0.2.2).
+
+### 4.2.1 (14 August 2026)
+- Plex artwork now delivered at display size (both dimensions sent to the transcoder); artwork cache key versioned.
+- Hidden Gems and Short and Sweet smart collections wired into Plex Home; Settings checkbox enabled for Plex.
+
+### 4.2.0 (13 August 2026)
+- Chapter preview images via bundled ffmpeg from an optional read-only media mount (size-capped cache).
+- Hidden Gems and Short and Sweet smart collections across Plex, Emby and Jellyfin.
+- Watchlist promoted to a top-navigation destination.
+
+Full history: https://github.com/cinedock/unraid-templates/blob/main/CHANGELOG.md
+  </Changes>
   <Description>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet. CineDock does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
   <Category>MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:8945]</WebUI>

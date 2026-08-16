@@ -4,6 +4,44 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.3.0 — 16 August 2026
+
+Major feature release: browse your whole library.
+
+- Added **Browse All** — every library opens as a full poster grid of its entire contents, sorted by
+  Title A–Z, Recently added, Release date or Rating, with an Unwatched filter and a genre filter.
+  The grid is paged and windowed so a 15,000-title library stays usable on a Fire TV Stick.
+- Added an **A–Z rail** for jumping straight to any letter; offsets come from the media server, so a
+  jump to T lands on the first T.
+- Added a **Genres** page listing every genre a library actually contains, with title counts and
+  artwork, opening straight into the filtered grid.
+- Added **See all** on repeatable-query rows (New Releases, Recently Added, each genre): press Left
+  from the first tile of a shelf, or choose the card at the end of the row.
+- Added a library sub-menu as a second line of the top menu carrying Browse All and Genres.
+- All of the above work on Emby, Jellyfin and Plex, verified against each; the letter index sums
+  exactly to the library total on all three.
+- Every tab now uses the inset billboard composition Home already used.
+- `?tv=1` / `?tv=0` / `?tv=auto` on the address force or restore the ten-foot layout.
+- Fixed, from testing on a real Fire TV Stick: the A–Z rail sitting inside the television's
+  overscan crop; "#" and "A" falling off the top of the rail; the grid opening a fifth of a
+  screen down; the "you are here" letter lagging one behind the selection; the billboard trailer
+  playing invisibly while focus was on the library menu; header controls running under the rail.
+- CineDock TV app unchanged (0.2.2) — it loads the interface from the container, so existing
+  installs pick this up on next launch.
+
+## 4.2.1 — 14 August 2026
+
+- Fixed Plex poster and backdrop delivery: the photo-transcode request now always supplies both
+  width and height, so artwork arrives at the requested display size instead of silently falling
+  back to full-resolution originals (measured 96.9% smaller posters, 93.0% smaller backdrops;
+  shelves paint markedly faster on television devices).
+- Versioned the artwork cache key so previously cached full-resolution images are not served after
+  the fix.
+- Wired the Hidden Gems and Short and Sweet smart collections into the Plex Home screen; the
+  recipes shipped in 4.2.0 but were only reachable from Emby and Jellyfin.
+- Enabled the "Create CineDock smart collections for me" Settings checkbox for Plex owners and
+  removed the stale "(coming to Plex)" notice.
+
 ## 4.2.0 — 13 August 2026
 
 Major feature release.
