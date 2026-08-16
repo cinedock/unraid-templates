@@ -4,7 +4,7 @@ Community Applications metadata, the Unraid Docker template and the portable Doc
 for CineDock.
 
 **Website: <https://cinedock.tv>** — what it looks like, downloads for Windows, Mac and Fire TV, and the
-setup guide. Report a problem or ask for a feature: <https://github.com/cinedock/unraid-templates/issues>.
+setup guide. Help, common fixes and reporting a problem: <https://cinedock.tv/support>.
 
 ## Rediscover your library.
 
