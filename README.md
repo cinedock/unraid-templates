@@ -3,6 +3,9 @@
 Community Applications metadata, the Unraid Docker template and the portable Docker Compose file
 for CineDock.
 
+**Website: <https://cinedock.tv>** — what it looks like, downloads for Windows, Mac and Fire TV, and the
+setup guide. Report a problem or ask for a feature: <https://github.com/cinedock/unraid-templates/issues>.
+
 ## Rediscover your library.
 
 **CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV,
