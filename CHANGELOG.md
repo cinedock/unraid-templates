@@ -4,6 +4,15 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.3.1 — 16 August 2026
+
+Bug-fix release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
+
+- Removed a leftover bar that CineDock never used: on a TV app's first three launches an empty navy
+  band with a blue line sat over the top menu for up to 45 seconds. New installs saw it every time.
+- Fixed the Search and Requests pages opening with their heading and input partly under the header.
+- The in-app help page now points at the new support page, cinedock.tv/support.
+
 ## Fire TV / Shield app 0.2.3 — 16 August 2026
 
 A new APK. Installs over any earlier version in place (same signing certificate); your saved

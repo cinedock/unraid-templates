@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.3.1 (16 August 2026)
+- Bug fixes: removed an empty navy band that sat over the top menu on a TV app's first launches; Search and Requests pages no longer open under the header; in-app help points at cinedock.tv/support. Fire TV / Shield app unchanged (0.2.3).
+
 ### 4.3.0 (16 August 2026)
 - Browse All: every library as a full poster grid (sort, unwatched and genre filters), paged and windowed for large libraries.
 - A-Z rail, Genres page, and "See all" on New Releases / Recently Added / genre rows.
