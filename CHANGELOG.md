@@ -4,6 +4,18 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.3.2 — 17 August 2026
+
+Performance release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
+
+- Fixed the long black wait on first launch. On Plex, building the Home screen asked the server for
+  its whole personalised hub set, which Plex computes slowly when it has been idle (measured 10.5 s
+  cold) — almost all of the 12–15 seconds a new Fire TV Stick waited for Home. "Recently Released"
+  now comes straight from the movie libraries; the row keeps the same titles in the same order.
+- Home is never rebuilt in front of you when any copy exists: an expired copy is shown at once and
+  refreshed in the background, and Home is pre-warmed a few seconds after the container starts.
+  Measured on a Fire TV Stick with an empty cache: whole first screen in under a second, from 15.
+
 ## 4.3.1 — 16 August 2026
 
 Bug-fix release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
