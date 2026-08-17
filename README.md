@@ -1,7 +1,7 @@
 # CineDock for Unraid
 
 Community Applications metadata, the Unraid Docker template and the portable Docker Compose file
-for CineDock.
+for CineDock. Also the home page for the CineDock app on the TrueNAS Apps catalogue.
 
 **Website: <https://cinedock.tv>** — what it looks like, downloads for Windows, Mac and Fire TV, and the
 setup guide. Help, common fixes and reporting a problem: <https://cinedock.tv/support>.
@@ -22,6 +22,15 @@ searchable in the Unraid Apps tab after the next catalog build publishes. This r
 canonical template and submission source.
 
 After installing, open `http://YOUR-UNRAID-IP:8945` and follow the setup wizard.
+
+## TrueNAS
+
+CineDock is in the official [TrueNAS Apps catalogue](https://apps.truenas.com/catalog/cinedock_community/)
+(Community train, added 17 August 2026). On TrueNAS open **Apps > Discover Apps**, search for
+**CineDock** and choose **Install**. Leave the WebUI port at the default `31080` (or pick another
+free port), keep the default ixVolume for configuration storage, then open the app's **Web Portal**
+or `http://YOUR-TRUENAS-IP:31080` and follow the setup wizard. Full walkthrough:
+<https://cinedock.tv/guide>.
 
 ## Docker Compose and other platforms
 
