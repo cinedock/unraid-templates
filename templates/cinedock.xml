@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.3.4 (18 August 2026)
+- The More Info screen is redesigned for televisions: the whole page now fits one screen for a film and for a long-running series alike (it ran to 1.5 and over 3 screens before), text no longer sits on artwork, and the description is larger. Media info (resolution, HDR/Dolby Vision, codec, frame rate, audio format) is shown per title and per episode, along with director, studio and country. Seasons and episodes have their own screens that open on where you are up to. Marking watched is now signposted, and the two actions that cannot be undone ask first. A trailer plays with sound in a box on the page where your server has one. Browsers, phones and the TV app (0.2.4) are unchanged.
+
 ### 4.3.3 (18 August 2026)
 - Zidoo support: the interface now displays correctly on Zidoo players (Z9X 8K tested) - the TV app always gets the television layout and older-engine layout gaps are filled. Pairs with the Fire TV / Shield / Zidoo app 0.2.4, which on a Zidoo plays through the box's own player. Other devices unchanged.
 

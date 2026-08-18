@@ -4,6 +4,38 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.3.4 — 18 August 2026
+
+**The More Info screen has been redesigned for televisions.** Browsers and phones are unchanged, and
+the Fire TV / Shield / Zidoo app is unchanged (0.2.4 remains current) — this is a container update
+only.
+
+- **The whole page fits one screen.** It used to run to one and a half screens for a film and over
+  three screens for a long-running series, so Cast, Extras and Episodes sat below the fold. Nothing
+  is hidden now, for a film or a twenty-season series alike.
+- **It reads from the sofa.** The large picture that took nearly two-thirds of the screen height is
+  gone; the artwork is dimmed behind the page and the moving picture is boxed, so text never sits on
+  top of a picture. The description is noticeably larger, and the layout uses the full width of the
+  screen instead of leaving a third of it empty.
+- **Media information is shown** — resolution, HDR or Dolby Vision, video codec, frame rate, and the
+  audio format with its channel layout — for a film and for each individual episode. Only what your
+  own server reports is shown; nothing is guessed.
+- **Director, studio and country** are shown where they are known.
+- **Seasons and episodes have their own screens.** The season picker opens on the season you are
+  actually watching, marked "You are here", and the episode list opens on the next episode you have
+  not seen, marked NEXT. Each season shows its own artwork. Pressing OK on an episode plays it.
+- **Marking things watched is now obvious.** Up marks a film, a season or a single episode watched
+  or unwatched, and the screen says so. It was always possible; nothing told you.
+- **The two actions that cannot be undone now ask first** — marking a whole season watched, and
+  removing a title from Continue Watching — with the safe answer already selected.
+- **A trailer plays, with sound, on the info screen** when your server holds a trailer file for that
+  title; otherwise the still image stays. It starts after a short pause so browsing stays quiet, and
+  it stops as soon as you press Play, open the episode list or leave the page.
+- Fixed: the close button in the corner could never be reached with a remote control. It is hidden
+  on televisions, where Back has always closed the page; mouse and touch keep it.
+- Fixed: opening the info screen could leave the main billboard trailer playing behind it, so two
+  soundtracks played at once.
+
 ## Fire TV / Shield / Zidoo app 0.2.4 — 18 August 2026
 
 A new APK. Installs over any earlier version in place (same signing certificate); your saved
