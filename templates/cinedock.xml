@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.3.3 (18 August 2026)
+- Zidoo support: the interface now displays correctly on Zidoo players (Z9X 8K tested) - the TV app always gets the television layout and older-engine layout gaps are filled. Pairs with the Fire TV / Shield / Zidoo app 0.2.4, which on a Zidoo plays through the box's own player. Other devices unchanged.
+
 ### 4.3.2 (17 August 2026)
 - Performance: first launch and every launch after an idle spell now show Home in about a second instead of 12-15 s on Plex (no more waiting on Plex to compute its hubs; Home is served from cache and refreshed in the background; pre-warmed at container start). No feature changes; Fire TV / Shield app unchanged (0.2.3).
 

@@ -70,11 +70,12 @@ release since the Unraid Community Applications launch.
 Use this repository's [issue tracker](https://github.com/cinedock/unraid-templates/issues) for
 installation, template and application support.
 
-## Fire TV / Shield app
+## Fire TV / Shield / Zidoo app
 
-The CineDock Fire TV / Shield app is published separately at
+The CineDock TV app is published separately at
 [CineDock Downloads](https://github.com/cinedock/downloads/releases). It is tested on Amazon Fire TV
-devices and NVIDIA Shield TV.
+devices, NVIDIA Shield TV and the Zidoo Z9X 8K (on a Zidoo, from app 0.2.4 with container 4.3.3, it
+plays through the box's own player).
 
 ## Support development
 

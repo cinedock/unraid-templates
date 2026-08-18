@@ -4,6 +4,37 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## Fire TV / Shield / Zidoo app 0.2.4 — 18 August 2026
+
+A new APK. Installs over any earlier version in place (same signing certificate); your saved
+CineDock address is kept.
+
+- **Zidoo players are now supported.** On a Zidoo, pressing Play opens the film in the box's own
+  player instead of CineDock's built-in one, so HDR / Dolby Vision, lossless audio passthrough and
+  frame-rate switching behave exactly as they do for the box's local files. Your resume position is
+  carried in, the finishing position is carried back to your media server, and a finished episode
+  offers the next one. Nothing extra to install on the box (no PlexToZidoo or ZidooPlexMod), and
+  nothing to configure. Tested on a Zidoo Z9X 8K; other Zidoo models with the same player are
+  expected to work but are untested.
+- On Fire TV, Shield and every other device the app behaves exactly as 0.2.3 — the Zidoo path is
+  used only when a Zidoo player is present.
+- Needs container 4.3.3 or later for the interface to display correctly on a Zidoo (below).
+
+## 4.3.3 — 18 August 2026
+
+Zidoo support release for the interface; no new features for other devices. Pairs with app 0.2.4
+above.
+
+- The interface now displays correctly on the Zidoo Z9X's built-in browser engine (an older
+  Chromium). Two things were wrong there: CineDock mistook the Zidoo for a desktop computer (it
+  reports a mouse-style pointer and carries no "Android TV" marker) and showed it the desktop layout;
+  and that engine lacks a few newer layout features, so posters in the rows were invisible until a
+  card was selected. Both fixed — the TV app now always gets the television layout, and the page
+  detects the missing features and uses exact equivalents. Fire TV, Shield and browsers are
+  unaffected (verified identical layout).
+- Help page and README: Zidoo Z9X 8K added to the tested devices; the old "Zidoo not supported"
+  warning replaced. Download links now point at the latest app release.
+
 ## 4.3.2 — 17 August 2026
 
 Performance release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
