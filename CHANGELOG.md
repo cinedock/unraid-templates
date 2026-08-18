@@ -4,6 +4,24 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.3.5 — 18 August 2026
+
+**Completes the redesigned More Info screen released in 4.3.4 earlier the same day.** The trailer
+described in that release did not actually play on a television. This fixes it. Nothing else is new.
+
+- **The trailer on the info screen now plays.** In 4.3.4 it was built and guarded but held behind a
+  check on a flag that the Plex connection never sets, so on Plex it could never start at all, and
+  on Emby it started for only about a third of films. Measured across 25 films on each: Plex
+  reported "has a trailer" for none of them while a real trailer existed for 20; Emby agreed with
+  itself, 9 and 9. The screen now simply asks for the trailer, exactly as the main billboard has
+  always done. Sound on, plays once, still starts after a short pause so browsing stays quiet, and
+  still stops the moment you press Play, open the episode list or leave the page.
+- **The TRAILER badge follows what is actually playing**, so it no longer stays hidden during a
+  trailer or appears when there is none.
+- **Audio badges drop the technical qualifier**: `5.1(side)` now reads `5.1`.
+
+Browsers and phones are unchanged, and the Fire TV / Shield / Zidoo app is unchanged (0.2.4).
+
 ## 4.3.4 — 18 August 2026
 
 **The More Info screen has been redesigned for televisions.** Browsers and phones are unchanged, and
