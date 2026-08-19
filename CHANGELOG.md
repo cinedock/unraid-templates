@@ -4,6 +4,36 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.4.0 — 19 August 2026
+
+**The More Info screen, finished — and a line drawn under 4.3.4 and 4.3.5.** Those two shipped the
+redesigned ten-foot info screen; four defects found on a real television the same night pulled them
+back within hours. 4.4.0 fixes all of them, fixes what was found checking the fix, and adds the
+identity the page was missing. Browsers and phones are unchanged; the TV app is unchanged (0.2.4).
+
+**Fixed (television)**
+- The info-screen trailer is now seen, not only heard: on Fire TV the clip played on a hardware plane
+  behind the page and the rounded, clipped box never left a hole for it. It now plays in a fixed
+  layer over the box, exactly as the row previews always have. No "TRAILER" label.
+- Up on a film no longer marks it watched: the ▲ shortcut belongs to the season and episode screens
+  only; on the detail screen Up just steps out of the cast rail.
+- The Spotlight artwork no longer vanishes after an info screen; the billboard comes back intact and
+  its trailer resumes.
+- Browse All: the A–Z rail is no longer a dead end; Home from the menu really goes Home; deeper amber
+  selection and a slightly enlarged selected poster, so it reads over pale art.
+- Plex "Recently Added" shows the programme, not "Season 1" / "Season 18".
+- Confirm dialogs open in silence and the trailer returns afterwards; backgrounding the app stops the
+  info-screen clip.
+
+**New (television info screen)**
+- Clearlogo from your server replaces the typeset title (Plex, Emby, Jellyfin); type stays if none.
+- Ratings with their source — IMDb, Rotten Tomatoes critic/audience, TMDB or the plain star — only
+  what the server recorded.
+- Plex-style action buttons; the director's portrait; the Dolby mark on Dolby badges.
+
+Known and unchanged: on Emby and Jellyfin the info-screen trailer plays only for titles with a local
+trailer file; Jellyfin's first Home load is slow.
+
 ## 4.3.5 — 18 August 2026
 
 **Completes the redesigned More Info screen released in 4.3.4 earlier the same day.** The trailer

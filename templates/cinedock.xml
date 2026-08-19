@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.4.0 (19 August 2026)
+- The More Info screen, finished, and a line drawn under 4.3.4 and 4.3.5 (both pulled within hours after checks on a real television). Fixed: the info-screen trailer is now seen as well as heard (it played behind the page on Fire TV); Up on a film no longer marks it watched; the Spotlight artwork no longer disappears after an info screen; in Browse All the A-Z rail is no longer a dead end, Home from the menu really goes Home, and the selection is a deeper amber with the selected poster slightly enlarged; Plex "Recently Added" shows the programme rather than "Season 1"; confirm dialogs open in silence. New on the television info screen: the title's clearlogo from your server (Plex, Emby, Jellyfin), ratings with their source (IMDb, Rotten Tomatoes, TMDB), Plex-style action buttons, the director's portrait and the Dolby mark on Dolby badges. Browsers, phones and the TV app (0.2.4) unchanged.
+
 ### 4.3.5 (18 August 2026)
 - Completes the More Info redesign released in 4.3.4 the same day: the trailer on the info screen did not actually play on a television (it was held behind a check on a flag the Plex connection never sets - measured 0 of 25 films on Plex reporting a trailer where 20 really had one). It now plays, with sound, once, after a short pause, and stops as soon as you press Play or leave the page. The TRAILER badge follows what is really playing, and audio badges drop the technical qualifier so "5.1(side)" reads "5.1". Browsers, phones and the TV app (0.2.4) unchanged.
 
