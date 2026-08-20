@@ -4,6 +4,13 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.5.1 — 20 August 2026
+
+**The desktop upgrade notice now takes you to the update.** 4.5.0's "Upgrade available" chip
+announced a newer build but was not clickable, and older desktops' Settings link pointed at the TV
+app's page. The chip now opens the right release page when clicked. Desktop editions only —
+containers never show the notice, and nothing else changes.
+
 ## 4.5.0 — 20 August 2026
 
 **Collections, and a Home that belongs to the viewer.**

@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.5.1 (20 August 2026)
+- The desktop upgrade notice is now clickable and opens the right release page (desktop editions only; containers never show the notice, and nothing else changes).
+
 ### 4.5.0 (20 August 2026)
 - Collections: the same collection is merged across every library into one shelf, with a line saying where its titles came from (Emby, Jellyfin and Plex). A new Collections tab is the chooser: pick what appears on Home and in what order from everything your server offers; collections you made yourself arrive switched on, anything CineDock guessed at arrives off and marked New. Home is now per viewer, and Continue Watching can be moved or switched off (off, it waits at the top of the picker). Desktop editions announce a newer build beside the version number instead of only inside Settings. Fixed: a shelf change could show the old Home for up to ten minutes; switching Continue Watching back on needed a reload; row headings sat under the selection glow. Television polish: lighter selection band, menus as words rather than chips, quieter watched tick. Browsers, phones and the TV app (0.2.4) unchanged.
 
