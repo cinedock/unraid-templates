@@ -4,6 +4,28 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.5.0 — 20 August 2026
+
+**Collections, and a Home that belongs to the viewer.**
+
+- **Collections merged across libraries.** A collection split over several libraries — the same
+  franchise in Films, TV and a box-set library — is now one shelf, with a line saying where its
+  titles came from. Works on Emby, Jellyfin and Plex.
+- **A Collections tab that is the chooser.** Pick what appears on Home and in what order, from
+  everything your server offers — your own collections, genres, library rows and CineDock's
+  built-in shelves. Collections you make yourself arrive switched on; anything CineDock guessed at
+  arrives off and marked New, so Home never rearranges itself behind you.
+- **Home is per viewer.** Each profile keeps its own arrangement.
+- **Continue Watching can be moved or switched off.** It stays first by default but is no longer
+  locked there; switched off, it returns to the top of the picker so it is easy to find again.
+- **Desktop editions announce a newer build beside the version number** in the header, instead of
+  only in a line inside Settings.
+- Fixed: changing shelves could leave Home showing the old arrangement for up to ten minutes;
+  switching Continue Watching back on needed a full reload; row headings sat under the selection
+  glow of the row beneath.
+- Television polish: a lighter selection band, menus as words rather than chips, and a quieter
+  watched tick. Browsers, phones and the TV app (0.2.4) unchanged.
+
 ## 4.4.0 — 19 August 2026
 
 **The More Info screen, finished — and a line drawn under 4.3.4 and 4.3.5.** Those two shipped the
