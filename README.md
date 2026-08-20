@@ -15,6 +15,11 @@ CineDock is a television-first interface for the Emby, Jellyfin or Plex server y
 your existing server users, libraries, playback, transcoding, watched state and resume positions.
 It does not scan, copy or modify media files.
 
+Since 4.5, the Home screen belongs to each viewer: the **Collections** tab is a picker for
+everything your server offers — your own collections, genres, library rows and CineDock's built-in
+shelves — switched on and off and reordered per profile. Collections split across several libraries
+are merged into one shelf, and Continue Watching can be moved or switched off like any other.
+
 ## Installation
 
 CineDock is in Unraid Community Applications: open the **Apps** tab, search for **CineDock** and
