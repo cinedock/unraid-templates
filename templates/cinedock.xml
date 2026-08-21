@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.6.0 (21 August 2026)
+- Television series pages now put programme details, seasons and image-led episode cards together on one screen. The title and actions sit beside a fixed trailer window; season buttons open episodes directly; cast, extras and an owned-library More Like This shelf remain below. The old More prompt and gap are gone, and Remove from Continue Watching has its own centred row. Film pages are unchanged. A local, no-cloud notice can now say when a newer TV app is available. Container and desktop editions are 4.6.0; the TV app remains 0.2.4 (versionCode 6).
+
 ### 4.5.1 (20 August 2026)
 - The desktop upgrade notice is now clickable and opens the right release page (desktop editions only; containers never show the notice, and nothing else changes).
 

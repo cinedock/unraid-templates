@@ -4,6 +4,23 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.6.0 — 21 August 2026
+
+**Television series, seasons and episodes now live together on one page.**
+
+- Programme details and actions sit beside the fixed, sound-on trailer window instead of being
+  stranded at the top-left of the screen.
+- Season buttons open their episodes directly, and episodes use wide still images with clear
+  watched and focus states.
+- Cast, extras and an owned-library **More Like This** shelf remain available further down the page.
+- The old **More** prompt and its empty gap are gone. **Remove from Continue Watching** now has a
+  centred row of its own so the main action row stays tidy.
+- Film pages are unchanged.
+- CineDock can now show a quiet, local-only notice when a newer TV app is available. It does not
+  add a cloud service or send viewing information anywhere.
+- Container, Windows and both macOS editions are now 4.6.0. The separately versioned TV app is
+  unchanged at 0.2.4 (`versionCode 6`).
+
 ## 4.5.1 — 20 August 2026
 
 **The desktop upgrade notice now takes you to the update.** 4.5.0's "Upgrade available" chip
