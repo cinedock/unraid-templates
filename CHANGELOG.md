@@ -4,6 +4,18 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.6.2 — 22 August 2026
+
+**A maintenance release. Nothing changes on screen**, and the Fire TV / Shield / Zidoo app is
+unchanged at 0.2.4 (`versionCode 6`).
+
+- The container and the Windows and Mac editions are back on the same version number, where they
+  were before 4.6.1. That release was a Windows-only fix published without a matching container,
+  which briefly made "which version am I on?" a question with two answers.
+- Behind the scenes, the version number now lives in a single file that every part of the build
+  reads, rather than being written into nine separate places. Forgetting one of those nine is what
+  made the 4.5.0 release fail after it had already published.
+
 ## Desktop 4.6.1 - 21 August 2026
 
 **Windows and Mac editions only. The container stays at 4.6.0 and needs no update.**
