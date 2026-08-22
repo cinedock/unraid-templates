@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.6.2 (22 August 2026)
+- A maintenance release; nothing changes on screen. The container and the Windows and Mac editions are back on the same version number, where they were before 4.6.1. Behind the scenes the version now lives in a single file that the whole build reads, instead of nine separate places. The TV app is unchanged at 0.2.4 (versionCode 6).
+
 ### Desktop 4.6.1 (21 August 2026)
 - Windows and Mac editions only; the container stays at 4.6.0 and needs no update. The tray menu's labels are visible again - on Windows the right-click menu opened with its items working but no text on them.
 
