@@ -4,6 +4,13 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## Desktop 4.6.1 - 21 August 2026
+
+**Windows and Mac editions only. The container stays at 4.6.0 and needs no update.**
+
+- The tray menu's labels are visible again. On Windows the right-click menu appeared with its items
+  working but no text on them, so there was no way to tell what any of them did.
+
 ## 4.6.0 — 21 August 2026
 
 **Television series, seasons and episodes now live together on one page.**
@@ -18,6 +25,7 @@ not part of the public release history. Git commit history remains the technical
 - Film pages are unchanged.
 - CineDock can now show a quiet, local-only notice when a newer TV app is available. It does not
   add a cloud service or send viewing information anywhere.
+- Windows and Mac: running a newer build now replaces an older one that is still sitting in the tray, instead of reopening the old version - so upgrading is once again simply "run the new file". Closing the window for the first time now says, once, that CineDock keeps running in the tray. The tray menu has gained a Help & user guide item.
 - Container, Windows and both macOS editions are now 4.6.0. The separately versioned TV app is
   unchanged at 0.2.4 (`versionCode 6`).
 
