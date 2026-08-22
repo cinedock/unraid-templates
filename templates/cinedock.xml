@@ -11,8 +11,11 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### Desktop 4.6.1 (21 August 2026)
+- Windows and Mac editions only; the container stays at 4.6.0 and needs no update. The tray menu's labels are visible again - on Windows the right-click menu opened with its items working but no text on them.
+
 ### 4.6.0 (21 August 2026)
-- Television series pages now put programme details, seasons and image-led episode cards together on one screen. The title and actions sit beside a fixed trailer window; season buttons open episodes directly; cast, extras and an owned-library More Like This shelf remain below. The old More prompt and gap are gone, and Remove from Continue Watching has its own centred row. Film pages are unchanged. A local, no-cloud notice can now say when a newer TV app is available. Container and desktop editions are 4.6.0; the TV app remains 0.2.4 (versionCode 6).
+- Television series pages now put programme details, seasons and image-led episode cards together on one screen. The title and actions sit beside a fixed trailer window; season buttons open episodes directly; cast, extras and an owned-library More Like This shelf remain below. The old More prompt and gap are gone, and Remove from Continue Watching has its own centred row. Film pages are unchanged. A local, no-cloud notice can now say when a newer TV app is available. Container and desktop editions are 4.6.0; the TV app remains 0.2.4 (versionCode 6). Windows and Mac also gained: a newer build now replaces an older one still in the tray rather than reopening it; a one-time note when the window is first closed saying CineDock keeps running in the tray; and a Help &amp; user guide item in the tray menu.
 
 ### 4.5.1 (20 August 2026)
 - The desktop upgrade notice is now clickable and opens the right release page (desktop editions only; containers never show the notice, and nothing else changes).
