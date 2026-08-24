@@ -4,6 +4,34 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.7.0 — 24 August 2026
+
+**Collections.** The Fire TV / Shield / Zidoo app is unchanged at 0.2.4 (`versionCode 6`).
+
+- **Seasonal shelves.** One shelf that appears only inside its season and is named for it —
+  *'Tis the Season*, *Fright Night*, *Love Is in the Air*, *Hop To It* and *Gather Round* — showing
+  the films you already own that belong to it. Matching is by TMDB id, never by title, so *The
+  Snowman* (2017), a crime thriller, cannot arrive in place of *The Snowman* (1982). Outside every
+  window there is no shelf at all rather than an empty one. The lists ship inside the image; nothing
+  is sent anywhere.
+- **Four more kinds of shelf:** Recently Watched, Top by Actor or Director, Top from a Studio, and
+  your Playlists — on Emby, Jellyfin and Plex.
+- **Collections now appear when you search**, and open the collection rather than an information
+  page it does not have. The shelf picker has a search box of its own, which matters if you have
+  hundreds.
+- **Every smart shelf rotates.** The selection is steady through the day, different tomorrow, and
+  different for each person in the house. It used to change on every visit, which moved a card under
+  your thumb.
+- **Short and Sweet has been removed.**
+- **Fixed — a viewer's profile now restricts what they can play, on Emby and Jellyfin.** Choosing a
+  profile changed which My List you saw and nothing else, so a child's profile could still play a
+  title that profile is not allowed. It cannot now, and a refusal says so plainly instead of
+  suggesting you try again. Plex was never affected.
+- A television series' buttons are now the same icons a film has, and episode synopses are no longer
+  cut off mid-sentence — the focused episode scrolls its own text after a pause.
+- Jellyfin owners: the library scan behind the seasonal shelf takes about a third of the time, and
+  no index is ever built while you wait for Home.
+
 ## 4.6.2 — 22 August 2026
 
 **A maintenance release. Nothing changes on screen**, and the Fire TV / Shield / Zidoo app is
