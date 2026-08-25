@@ -4,6 +4,22 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.7.1 — 25 August 2026
+
+Two faults in television series, both reported in use. The TV app is unchanged at 0.2.4.
+
+- **A finished episode shows as watched straight away.** The tick always reached the server, but the
+  episode list open behind the player kept the card it was drawn with, so you had to leave the
+  programme and come back. It now refreshes from the server when the player closes — and keeps
+  looking for up to two and a half minutes, because playback on a Fire TV is not driven by CineDock
+  and progress arrives on a two-minute beat.
+- **A series resumes where you were, however you reached it.** Continue Watching carried the exact
+  episode; arriving from search, a shelf or Browse lost it and started from episode one. Play now
+  goes to the same episode, and the button says which — "Resume S1 E2" rather than "Play".
+- The brief "what's new" notice on first launch after an update has been removed: too quick to read,
+  and its text had to be rewritten by hand each release, so it announced the previous one.
+- A series' action icons now match a film's exactly.
+
 ## 4.7.0 — 24 August 2026
 
 **Collections.** The Fire TV / Shield / Zidoo app is unchanged at 0.2.4 (`versionCode 6`).
