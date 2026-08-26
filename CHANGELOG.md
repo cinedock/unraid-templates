@@ -4,6 +4,35 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.0 — 26 August 2026
+
+Five features and one look. The TV app is unchanged at 0.2.4 — it loads all of this from your
+container, no new APK needed.
+
+- **Protected profiles are honoured on Emby and Jellyfin.** A profile with a password on the server
+  is asked for it on the Who's watching screen, like a Plex PIN; profiles without one walk straight
+  in. Choosing a profile now talks to the server as that user, so per-user library visibility and
+  parental limits are enforced by the server itself.
+- **A Requests tab, when you run Seerr.** Connect Overseerr or Jellyseerr once in Settings and a
+  Requests tab appears: search for anything and press Request — Seerr forwards it to your Radarr or
+  Sonarr. No Seerr, no tab.
+- **Seasonal shelves.** Around each occasion a themed shelf drawn from your own library appears by
+  itself — Fright Night at Halloween, 'Tis the Season at Christmas — and in the days around the
+  occasion Home dresses for the party: seasonal featured titles and a backdrop framing the
+  billboard. One toggle in the Home-shelves picker switches shelf and look off together.
+- **Settings rebuilt.** On the TV: a small D-pad screen — Home shelves, Who's watching, a built-in
+  How to use CineDock guide, and a QR code that hands setup to a phone or computer. In a browser:
+  what you are connected to, the optional extras, and a Report what I watch switch that no longer
+  requires re-running setup. The full guide lives at cinedock.tv/guide.
+- **The menu bar scales, and the app introduces itself.** Libraries that do not fit fold behind a
+  More entry; on television the wordmark moves to a boot splash — the emblem performs, then the
+  name — shown only when there is genuinely loading to cover.
+- **One colour scheme throughout**, one selection ring everywhere (the profile picker previously
+  had none), true circles on the series page, and the setup wizard finally in CineDock's own
+  colours.
+- **Back undoes one layer, everywhere.** Choosing a subtitle then pressing Back closes the menu —
+  the film keeps playing. In the shelf picker, Back puts a carried shelf down first.
+
 ## 4.7.1 — 25 August 2026
 
 Two faults in television series, both reported in use. The TV app is unchanged at 0.2.4.
