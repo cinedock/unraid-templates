@@ -4,6 +4,20 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.1 — 26 August 2026
+
+Three fixes from 4.8.0's first evening in real use. The TV app is unchanged at 0.2.4.
+
+- **Home's Continue Watching advances by itself.** Watch an episode and the row stayed on the one
+  before until you signed out and back in — it refreshed only in the seconds after the player
+  closed, before the server had advanced its own On Deck. It now keeps asking for up to two and a
+  half minutes and stops the moment the row moves.
+- **A deleted library leaves the menu on the next request.** Home is cached for ten minutes, so a
+  library deleted on the server could keep its tab well past its funeral. The cache now checks the
+  server's library list first and rebuilds immediately when it changed.
+- The television help row is now simply **Help**, and the browser card that opens the full
+  cinedock.tv guide is **User guide**.
+
 ## 4.8.0 — 26 August 2026
 
 Five features and one look. The TV app is unchanged at 0.2.4 — it loads all of this from your
