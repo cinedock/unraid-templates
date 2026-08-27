@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.8.2 (27 August 2026)
+- A faster series page, a Help worth the name, and CineDock stops curating. The curated shelves - Hidden Gems, Top by Actor or Director and Top from a Studio - are removed: your collections are yours to make, and CineDock does not curate for you. Recently Watched, Playlists and the Seasonal shelves stay. The television Help now walks every screen of the app, in the same order and words as the rewritten guide at cinedock.tv/guide. And opening a series from Continue Watching loses its long pause on Plex - the library inventory behind More Like This now refreshes in the background instead of in front of you. The TV app is unchanged at 0.2.4 (versionCode 6).
+
 ### 4.8.1 (26 August 2026)
 - Three fixes from 4.8.0's first evening in use. Home's Continue Watching now advances to the next episode by itself - it keeps asking the server for up to two and a half minutes after playback and stops the moment the row moves, instead of only checking in the seconds after the player closed. A library deleted on the server now leaves the menu on the next request instead of surviving in a ten-minute cache. And the television help row is now simply called Help. The TV app is unchanged at 0.2.4 (versionCode 6).
 

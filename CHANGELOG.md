@@ -4,6 +4,25 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.2 — 27 August 2026
+
+A faster series page, a Help worth the name, and CineDock stops curating. The TV app is unchanged
+at 0.2.4.
+
+- **The curated shelves are gone.** Hidden Gems, Top by Actor or Director and Top from a Studio
+  have been removed, on a simple principle: your collections are yours to make, and CineDock does
+  not curate for you. Recently Watched and Playlists stay — they surface the server's own records —
+  and the Seasonal shelves are untouched. A removed shelf simply leaves Home; everything else in a
+  saved arrangement stays where it was.
+- **Help now covers the whole application.** The television's Help walks every screen — Remote
+  basics, Who's watching, Home, Home shelves, Seasonal, Collections, Watchlist, Browse & Search,
+  More Info, Playback and Requests — in the same order and words as the rewritten guide at
+  cinedock.tv/guide.
+- **A series page opens from Continue Watching without the long pause.** On Plex, More Like This
+  rebuilt a whole-library inventory inline when its six-hour copy lapsed — ten seconds on a large
+  library. It now refreshes behind the request, and Continue Watching tiles prefetch the page OK
+  actually opens.
+
 ## 4.8.1 — 26 August 2026
 
 Three fixes from 4.8.0's first evening in real use. The TV app is unchanged at 0.2.4.
