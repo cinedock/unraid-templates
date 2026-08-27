@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://cinedock.tv/support</Support>
   <Project>https://cinedock.tv</Project>
-  <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
+  <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
 ### 4.8.3 (27 August 2026)
 - Help worth the name. The television's Help now carries the full cinedock.tv guide, word for word - thirteen topics from the remote to Requests, with the guide's address and a QR code leading the page so help is point-your-phone-and-you-are-there. Pages that depend on something say so large: a TMDB key for biographies, Seerr for Requests, local trailer files for reliable television trailers. The TV app is unchanged at 0.2.4 (versionCode 6).
@@ -80,7 +80,7 @@
 
 Full history: https://github.com/cinedock/unraid-templates/blob/main/CHANGELOG.md
   </Changes>
-  <Description>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet. CineDock does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
+  <Description>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet. CineDock does not scan, copy or change media files. Install the container, open its web page and connect your media server.</Description>
   <Category>MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:8945]</WebUI>
   <Icon>https://raw.githubusercontent.com/cinedock/unraid-templates/main/cinedock-icon.png</Icon>
