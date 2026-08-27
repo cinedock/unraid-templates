@@ -4,6 +4,22 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.4 — 27 August 2026
+
+A remote can mark one episode watched again. The TV app is unchanged at 0.2.5.
+
+- **Marking a single episode from the remote.** On a series page, ▶ on a highlighted episode
+  steps onto the episode's own ✓ tick — the card stays lit beneath it — and OK marks that one
+  episode watched or unwatched. ◀ steps back to the episode; OK on the episode itself still
+  plays it. This route had been missing since the one-page series redesign in 4.6.0: only a
+  keyboard's W key and a mouse click survived, so a television remote had no way to correct a
+  single episode. The tick is deliberately unlike the season control in the button row, so one
+  episode can never be mistaken for a whole season.
+- The television Help's "Marking watched" topic and the cinedock.tv guide now describe the new
+  grammar.
+- **Televisions still on TV app 0.2.4 are now offered 0.2.5** — the update released earlier
+  today with WebView-recovery and crash-reporting improvements.
+
 ## 4.8.3 — 27 August 2026
 
 Help worth the name. The TV app is unchanged at 0.2.4.

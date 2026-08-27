@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.8.4 (27 August 2026)
+- A remote can mark one episode watched again. On a series page, Right on a highlighted episode steps onto the episode's own tick - the card stays lit beneath it - and OK marks that one episode watched or unwatched; Left steps back, and OK on the episode still plays it. The route had been missing since the one-page series redesign in 4.6.0 left only a keyboard's W key and a mouse click. The television Help and the cinedock.tv guide describe the new grammar, and televisions still on TV app 0.2.4 are now offered 0.2.5. The TV app is unchanged at 0.2.5 (versionCode 7).
+
 ### 4.8.3 (27 August 2026)
 - Help worth the name. The television's Help now carries the full cinedock.tv guide, word for word - thirteen topics from the remote to Requests, with the guide's address and a QR code leading the page so help is point-your-phone-and-you-are-there. Pages that depend on something say so large: a TMDB key for biographies, Seerr for Requests, local trailer files for reliable television trailers. The TV app is unchanged at 0.2.4 (versionCode 6).
 
