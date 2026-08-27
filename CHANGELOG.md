@@ -4,6 +4,18 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.3 — 27 August 2026
+
+Help worth the name. The TV app is unchanged at 0.2.4.
+
+- **The television's Help now carries the full guide.** Every topic screen holds its section of
+  cinedock.tv/guide word for word — thirteen topics, from the remote to Requests — with Up/Down
+  scrolling the longer ones, and Back returning to the topic you came from.
+- **The Help page leads with the route to the real thing:** the guide's address with a QR code
+  beside it, so help is point-your-phone-and-you-are-there.
+- Pages that depend on something say so large: a TMDB key for biographies, Seerr for Requests,
+  local trailer files for reliable trailers on a television.
+
 ## 4.8.2 — 27 August 2026
 
 A faster series page, a Help worth the name, and CineDock stops curating. The TV app is unchanged

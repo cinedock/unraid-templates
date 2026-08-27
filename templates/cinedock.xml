@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.8.3 (27 August 2026)
+- Help worth the name. The television's Help now carries the full cinedock.tv guide, word for word - thirteen topics from the remote to Requests, with the guide's address and a QR code leading the page so help is point-your-phone-and-you-are-there. Pages that depend on something say so large: a TMDB key for biographies, Seerr for Requests, local trailer files for reliable television trailers. The TV app is unchanged at 0.2.4 (versionCode 6).
+
 ### 4.8.2 (27 August 2026)
 - A faster series page, a Help worth the name, and CineDock stops curating. The curated shelves - Hidden Gems, Top by Actor or Director and Top from a Studio - are removed: your collections are yours to make, and CineDock does not curate for you. Recently Watched, Playlists and the Seasonal shelves stay. The television Help now walks every screen of the app, in the same order and words as the rewritten guide at cinedock.tv/guide. And opening a series from Continue Watching loses its long pause on Plex - the library inventory behind More Like This now refreshes in the background instead of in front of you. The TV app is unchanged at 0.2.4 (versionCode 6).
 
