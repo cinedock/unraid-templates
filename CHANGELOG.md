@@ -4,6 +4,21 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.6 — 28 August 2026
+
+Televisions are told that TV app 0.2.7 exists. No other change.
+
+- **Televisions on TV app 0.2.6 or older are now offered 0.2.7.** On boxes that hand playback to
+  the device's own player — Zidoo players do this — 0.2.7 is what makes the screen catch up when
+  you come back from an episode: until now the one you had just finished was still offered as the
+  next, and its tick did not appear until the app was restarted. 4.8.5 put the mechanism in place;
+  0.2.7 is the half that lives on the television, and this release is the only thing that tells
+  anyone it is there.
+- **The television setup guide now says to restart the box after installing the TV app**, and why.
+  Installing an app leaves an Android television busy optimising code and reclaiming memory, and
+  on boxes that hand playback to their own player that can end CineDock during the first thing you
+  play — which looks exactly like a fault in the new version. A restart clears it.
+
 ## 4.8.5 — 28 August 2026
 
 A film no longer freezes part-way through. The TV app is unchanged at 0.2.6.
