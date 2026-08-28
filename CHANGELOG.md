@@ -4,6 +4,31 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.5 — 28 August 2026
+
+A film no longer freezes part-way through. The TV app is unchanged at 0.2.6.
+
+- **The picture no longer stops in the middle of a film or episode.** When a television's own
+  player fills its buffer and then reads nothing for a quarter of an hour, the connection behind
+  it can be dropped with part of the file still to come. CineDock had no answer to that: the
+  picture simply stopped, and only skipping forward brought it back. It now re-opens the file at
+  the exact byte it had reached and carries on, so the player never sees the join. Reproduced and
+  measured before release: an eighteen-minute silence mid-film, the connection killed with 380 MB
+  still owed, and every byte delivered intact.
+- **"More like this" works again for anyone signed in.** On Plex, a viewer who signs in with a PIN
+  saw an empty More Like This row on every film and programme, permanently — and each visit to a
+  series page silently began a scan of the whole library whose result was thrown away when the
+  page finished loading. Only the owner's own profile was unaffected, which is why it went unseen.
+- **Playback links and error handling.** A playback link now expires once it has gone unused for a
+  while, instead of living as long as the app was running — and a link in the middle of delivering
+  a film is never touched. When a media server refuses a request, CineDock passes on what it
+  actually said instead of reporting a generic failure. A media server's own credentials are no
+  longer sent on if a request is redirected to a different machine, port, or an unencrypted
+  connection.
+- **Televisions still on TV app 0.2.4 or 0.2.5 are now offered 0.2.6** — the release that fixes
+  the app closing at the end of an episode. 4.8.4 was still pointing at 0.2.5, which does not
+  contain that fix.
+
 ## 4.8.4 — 27 August 2026
 
 A remote can mark one episode watched again. The TV app is unchanged at 0.2.5.
