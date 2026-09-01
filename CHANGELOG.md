@@ -4,6 +4,25 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.7 — 29 August 2026
+
+The television's Help screen works with a remote. The TV app is unchanged at 0.2.7.
+
+- **Back on the Help screens now undoes one level at a time.** Back from a Help topic threw you all
+  the way out to Home instead of back to the list of topics, and left the app in a state where no
+  further Back did anything at all. One press now undoes exactly one step, every time: the topic,
+  then the list of topics, then Settings, then Home. The cause was a safety net added in 4.8.0 to
+  stop a text field swallowing Back and trapping you in a tool screen; it could not tell a Back
+  that had worked from one that had failed, so it fired after every successful step that landed
+  anywhere except Home. The net still does its original job.
+- **The Help topics you could not see or reach.** The bar along the bottom reading "OK open, Back
+  Settings" was painted over the last few topics, and moving the highlight onto one of them made
+  it vanish underneath.
+- **The Windows and Mac editions are on 4.8.7 as well.** They stayed at 4.8.5 for a few days
+  through no fault of their own — their build kept finishing and then failing at the final step,
+  on a monthly limit that reset on 1 September. Nothing was missing from them; they simply could
+  not be handed over. They are published now.
+
 ## 4.8.6 — 28 August 2026
 
 Televisions are told that TV app 0.2.7 exists. No other change.
