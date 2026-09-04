@@ -6,7 +6,7 @@ not part of the public release history. Git commit history remains the technical
 
 ## 4.8.8 — 4 September 2026
 
-The first Friday bundle: four fixes and a Home screen measured against Netflix on the same
+The first Friday bundle: four fixes and a resized Home screen, measured on the
 television. **CineDock TV 0.2.8 is released the same day** and is what makes the audio fix do
 anything; this container tells televisions on 0.2.7 or older that it exists. The Windows and Mac
 editions move to 4.8.8 with the container.
@@ -32,9 +32,9 @@ editions move to 4.8.8 with the container.
 - **Search.** On Plex, searching for a series returned every one of its episodes dressed as
   shows; a series now appears once, and an episode only when its own title matches. An episode
   result names its show - "Man on Fire · Four" rather than "Four".
-- **The Home screen, measured against Netflix.** Sized to Netflix proportions - smaller posters,
-  a wider gap, larger headings and synopsis, and the episode label on the same line as the year
-  and rating. Every shelf now scrolls the same way: the focused title stays in line with the row
+- **The Home screen.** Posters are smaller and more of them fit across the screen, with a wider
+  gap, larger headings and synopsis, and the episode label on the same line as the year and
+  rating. Every shelf now scrolls the same way: the focused title stays in line with the row
   heading with the previous title peeking, on short rows and long. Menu tabs are larger and the
   focused one carries a gold underline.
 - The Spotlight reel starts at a random featured title. Televisions on TV app 0.2.7 or older are
