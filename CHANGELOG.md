@@ -4,6 +4,23 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.9 — 4 September 2026
+
+A fix for the series page, released outside the Friday cycle. The Windows and Mac editions move
+to 4.8.9 with the container; the TV app is unchanged at 0.2.8 and does not need reinstalling.
+
+- **Episode images on a series page were cut off top and bottom.** Every episode still was
+  cropped: the card's height was tied to the width of the whole screen while its width came
+  from the grid of cards, and the two only agreed by coincidence at some screen sizes - at a
+  television's 960-pixel page width the image lost 29% of its height. The height now follows
+  the card's own width, so every still is shown whole, at 16:9, at every screen size and on
+  every television engine.
+- **Menu and shelf spacing on older televisions.** Televisions and boxes whose browser has no
+  flexbox gap fall back to fixed margins, and those were not updated with 4.8.8's new spacing.
+  The menu tabs sat at double the intended gap, so with a long list of libraries the rail
+  overflowed and a library tab was folded away behind "More" that newer televisions still show.
+  The tabs and the shelf cards now sit at the same spacing everywhere.
+
 ## 4.8.8 — 4 September 2026
 
 The first Friday bundle: four fixes and a resized Home screen, measured on the
