@@ -4,6 +4,42 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.8.8 — 4 September 2026
+
+The first Friday bundle: four fixes and a Home screen measured against Netflix on the same
+television. **CineDock TV 0.2.8 is released the same day** and is what makes the audio fix do
+anything; this container tells televisions on 0.2.7 or older that it exists. The Windows and Mac
+editions move to 4.8.8 with the container.
+
+- **The picture no longer crawls while the sound carries on (Fire TV, DTS films).** A Fire TV Cube
+  has no DTS decoder; it passes DTS through to the receiver, and after any seek or a subtitle
+  change that output never keeps up - the film advanced three or four seconds for every ten on
+  the clock, and a mono DTS track was silent. With TV app 0.2.8 the television tells CineDock
+  which formats it can actually decode, and the server hands over the original file unless no
+  audio track is decodable - only then is the audio alone rebuilt as 6-channel EAC3 (Emby and
+  Jellyfin copy the video untouched; Plex re-encodes HEVC to H.264). Proven on the Cube through
+  seven seeks. Older apps, and Zidoo players, which decode DTS themselves, are unchanged.
+- **Subtitles follow the viewer's own language on Emby and Jellyfin.** CineDock pre-selected
+  English subtitles on every foreign-language film whatever the account was set to; it now reads
+  the account's audio and subtitle language and subtitle mode from the server and honours them.
+  An account with nothing set behaves as before. The TV app's own player still prefers English;
+  that half moves with a later TV release.
+- **Marking an episode watched, the Plex way.** A tap of OK plays the highlighted episode; a held
+  OK (about two seconds) offers to mark it watched or unwatched, naming the episode; Right and
+  Left step episode to episode, one press each. The tick chip 4.8.4 put on every episode card is
+  gone. Proven on a Fire TV Cube and a Zidoo Z9X. The television Help and the cinedock.tv guide
+  describe the new grammar.
+- **Search.** On Plex, searching for a series returned every one of its episodes dressed as
+  shows; a series now appears once, and an episode only when its own title matches. An episode
+  result names its show - "Man on Fire · Four" rather than "Four".
+- **The Home screen, measured against Netflix.** Sized to Netflix proportions - smaller posters,
+  a wider gap, larger headings and synopsis, and the episode label on the same line as the year
+  and rating. Every shelf now scrolls the same way: the focused title stays in line with the row
+  heading with the previous title peeking, on short rows and long. Menu tabs are larger and the
+  focused one carries a gold underline.
+- The Spotlight reel starts at a random featured title. Televisions on TV app 0.2.7 or older are
+  offered 0.2.8.
+
 ## 4.8.7 — 29 August 2026
 
 The television's Help screen works with a remote. The TV app is unchanged at 0.2.7.
