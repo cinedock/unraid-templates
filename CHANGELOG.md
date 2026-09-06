@@ -4,6 +4,32 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.0 - 6 September 2026
+
+**Playlists, selected libraries and smoother TV browsing.** Container and Windows/Mac editions
+move together to 4.9.0. CineDock TV stays at **0.2.8**; no new APK is needed.
+
+- **Playlists have their own top-menu tab.** Browse video playlists, create a named list, add
+  films or episodes, and add a selected season or a whole series with an episode-count preview.
+  Existing entries are skipped. Manage entries, remove one, or delete a playlist without deleting
+  media. Plex supports moving entries up/down; Emby/Jellyfin ordering is managed in their own clients.
+- **Mixed playlist playback follows the saved order.** Start at the top or from an entry's information
+  page, then continue to the next film or episode in that playlist. Ordinary series playback keeps
+  series order. Resume and watched state remain shared with your selected media-server user.
+- **Choose Plex libraries per profile in Settings → Libraries.** The menu, Home, Search and Continue
+  Watching follow the saved choice. Plex sidebar pins are separate; server permissions still apply.
+- **TV previews keep matching artwork while loading.** Row, Spotlight, series-detail and startup
+  previews avoid the brief play-placeholder flash on older TV browsers. Scoped trailer requests keep
+  working after changing libraries or profiles.
+- **TV libraries lead with shows.** Episode activity keeps its series and episode context. Older
+  TV engines use the correct series-hero size, and background Continue Watching refresh preserves focus.
+- **Clearer controls and reliable restarts.** Playlist actions sit above the grid, series/season
+  buttons follow the visible focus order, empty lists stay discoverable, and playback references
+  survive container restarts. Playback errors are reported instead of silently losing progress.
+- **Updated help throughout.** The [full user guide](https://cinedock.tv/guide) and in-app Help cover
+  setup, profiles, library and Home choices, every playlist action, playback and troubleshooting.
+  Troubleshooting includes the Zidoo cache-clear remedy observed during device testing.
+
 ## 4.8.9 — 4 September 2026
 
 A fix for the series page, released outside the Friday cycle. The Windows and Mac editions move
