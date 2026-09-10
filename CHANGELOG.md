@@ -4,6 +4,27 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.1 - 10 September 2026
+
+**A repair release for television navigation, playlist rows and accurate Zidoo updates.** Container
+and Windows/Mac editions move together to 4.9.1. Fire TV and Shield remain on **CineDock TV 0.2.8**;
+Zidoo uses the separately released **CineDock Zidoo 0.2.9 + Playback Helper 1.2** pair.
+
+- **Every D-pad direction now answers.** Dead ends give a short visual nudge, Back unwinds one layer,
+  the profile menu carries Exit CineDock, and Left on the first shelf card no longer opens the shelf.
+- **Any individual playlist can be a Home row.** Open Settings → Home shelves, find it under
+  Your playlists and switch it on. The existing Playlists top-menu tab remains.
+- **Playlist work is quicker and more complete.** Creation avoids slow duplicate-name probes.
+  Emby supports Move up/Move down; Jellyfin does too with a user login rather than an API key alone.
+- **Search finds people and studios.** With TMDB and Seerr configured, a person's broader filmography
+  can also show missing titles that are available to request.
+- **Library choices now work on Plex, Emby and Jellyfin.** Settings → Libraries controls which
+  already-authorised libraries appear in that profile's top menu and library-led Home rows. It does
+  not change server permissions.
+- **Zidoo follows its own paired update track.** Install Playback Helper first, CineDock Zidoo
+  second, then open CineDock Zidoo. Install over existing apps. Do not clear application data,
+  uninstall the apps or factory-reset the box. The standard Fire TV / Shield APK remains separate.
+
 ## 4.9.0 - 6 September 2026
 
 **Playlists, selected libraries and smoother TV browsing.** Container and Windows/Mac editions
@@ -28,7 +49,7 @@ move together to 4.9.0. CineDock TV stays at **0.2.8**; no new APK is needed.
   survive container restarts. Playback errors are reported instead of silently losing progress.
 - **Updated help throughout.** The [full user guide](https://cinedock.tv/guide) and in-app Help cover
   setup, profiles, library and Home choices, every playlist action, playback and troubleshooting.
-  Troubleshooting includes the Zidoo cache-clear remedy observed during device testing.
+  **Correction, 10 September:** that cache-clear advice did not fix the Zidoo hand-off fault. Current Zidoo use requires the dedicated CineDock Zidoo + Playback Helper pair described in 4.9.1.
 
 ## 4.8.9 — 4 September 2026
 
