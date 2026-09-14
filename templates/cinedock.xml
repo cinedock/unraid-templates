@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.9.2 (14 September 2026)
+- Urgent remote-playback repair for Emby and Jellyfin. Browser HLS, television direct play and Android TV audio rebuilding now stay behind CineDock instead of returning a home-network media-server address, and the server's API key remains private. All three paths delivered real media bytes from a VPS that could not reach the home LAN before release. Container and desktop editions move to 4.9.2; television apps are unchanged.
+
 ### 4.9.1 (10 September 2026)
 - Repair release: television navigation now answers at every edge, Back unwinds one layer and Exit CineDock is in the profile menu. Any individual playlist can be enabled as its own Home row from Settings → Home shelves; creation is faster, Emby reordering works, and Jellyfin reordering works with a user login. Search finds people and studios. Settings → Libraries now controls the already-authorised top-menu libraries and library-led Home rows on Plex, Emby and Jellyfin. Container and desktop editions move to 4.9.1. Fire TV and Shield stay on CineDock TV 0.2.8. Zidoo uses the separate CineDock Zidoo 0.2.9 + Playback Helper 1.2 pair: install the helper first, CineDock Zidoo second, then open CineDock Zidoo; install over existing apps and do not clear application data, uninstall or factory-reset.
 

@@ -4,6 +4,17 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.2 - 14 September 2026
+
+**An urgent repair for watching Emby and Jellyfin away from home.** Container and Windows/Mac
+editions move together to 4.9.2. The television apps are unchanged.
+
+- Browser HLS, television direct play and Android TV audio rebuilding now stay behind CineDock
+  instead of returning the media server's home-network address.
+- The media-server address and API key remain private behind bounded CineDock relay links.
+- All three paths delivered real media bytes from a VPS that could not reach the home LAN before
+  this release was published.
+
 ## 4.9.1 - 10 September 2026
 
 **A repair release for television navigation, playlist rows and accurate Zidoo updates.** Container
