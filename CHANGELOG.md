@@ -16,6 +16,8 @@ is available. Zidoo is unchanged on the **CineDock Zidoo 0.2.9 + Playback Helper
   page returns after a finale.
 - CineDock TV 0.2.9 keeps the 0.2.8 fix that stops DTS films crawling on Fire TV. Install it over the
   existing app when the TV app notice appears.
+- Search no longer says "No matches" when your media server cannot be reached; it says so and asks you
+  to try again, as Home already does.
 
 ## 4.9.2 - 14 September 2026
 
