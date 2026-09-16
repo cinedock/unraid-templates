@@ -4,6 +4,19 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.3 - 18 September 2026
+
+**A television playback repair: no more black screen at the end of an episode.** Container and
+Windows/Mac editions move together to 4.9.3 so Fire TV and Shield are told that **CineDock TV 0.2.9**
+is available. Zidoo is unchanged on the **CineDock Zidoo 0.2.9 + Playback Helper 1.2** pair.
+
+- Some direct-play files stop delivering picture a few seconds before their stated length, and the
+  television player then waited on a black screen until Back was pressed. CineDock TV 0.2.9 finishes
+  the episode normally instead: the next episode starts, including across a season, or the programme
+  page returns after a finale.
+- CineDock TV 0.2.9 keeps the 0.2.8 fix that stops DTS films crawling on Fire TV. Install it over the
+  existing app when the TV app notice appears.
+
 ## 4.9.2 - 14 September 2026
 
 **An urgent repair for watching Emby and Jellyfin away from home.** Container and Windows/Mac
