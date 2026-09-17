@@ -16,7 +16,7 @@
 - Search no longer says "No matches" when your media server cannot be reached; it says so and asks you to try again.
 - Top lists are numbered again: a collection or playlist shelf whose name contains the word "Top" shows rank numbers on Home and through See all, in the order the list has on your media server.
 - Switching profile no longer leaves the previous profile's library tabs showing (or empty) until the page is reloaded.
-- Settings → Libraries now sets the order of the library tabs as well as which appear: on a remote ▶ picks a library up, ▲▼ move it and OK puts it down; with a mouse, use the arrows on each row.
+- Settings → Libraries now sets the order of the library tabs as well as which appear: on a remote ▶ picks a library up, ▲▼ move it and OK puts it down; with a mouse, use the arrows on each row. Back saves.
 
 ### 4.9.2 (14 September 2026)
 - Urgent remote-playback repair for Emby and Jellyfin. Browser HLS, television direct play and Android TV audio rebuilding now stay behind CineDock instead of returning a home-network media-server address, and the server's API key remains private. All three paths delivered real media bytes from a VPS that could not reach the home LAN before release. Container and desktop editions move to 4.9.2; television apps are unchanged.

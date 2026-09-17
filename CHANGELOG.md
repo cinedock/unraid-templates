@@ -23,7 +23,7 @@ is available. Zidoo is unchanged on the **CineDock Zidoo 0.2.9 + Playback Helper
 - Switching profile no longer leaves the previous profile's library tabs showing (or empty) until the
   page is reloaded.
 - Settings → Libraries now sets the order of the library tabs as well as which appear. On a remote,
-  ▶ picks a library up, ▲▼ move it and OK puts it down; with a mouse, use the arrows on each row.
+  ▶ picks a library up, ▲▼ move it and OK puts it down; with a mouse, use the arrows on each row. Back saves.
 
 ## 4.9.2 - 14 September 2026
 
