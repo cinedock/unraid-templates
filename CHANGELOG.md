@@ -18,6 +18,10 @@ is available. Zidoo is unchanged on the **CineDock Zidoo 0.2.9 + Playback Helper
   existing app when the TV app notice appears.
 - Search no longer says "No matches" when your media server cannot be reached; it says so and asks you
   to try again, as Home already does.
+- Top lists are numbered again: a collection or playlist shelf whose name contains the word "Top"
+  shows rank numbers on Home and through See all, in the order the list has on your media server.
+- Switching profile no longer leaves the previous profile's library tabs showing (or empty) until the
+  page is reloaded.
 
 ## 4.9.2 - 14 September 2026
 
