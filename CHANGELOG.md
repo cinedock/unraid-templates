@@ -4,6 +4,47 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.5 - 25 September 2026
+
+**Zidoo: Back from a film returns to that film.** Container and Windows/Mac editions move to 4.9.5 with
+**CineDock Zidoo 0.2.11** (Playback Helper 1.5.8 unchanged). Fire TV and Shield stay on **CineDock TV 0.2.10**.
+
+- **Back from a film returns to that film's Info page** on Zidoo, not to the spotlight. The Zidoo closes
+  CineDock while its own player runs, so the app used to restart on Home; it now remembers the Info page
+  you pressed Play on (the series page, for an episode) and reopens it, with nothing else shown in between.
+- **Trailers wait ten seconds after you come back from a film** on Zidoo. The HDMI link is still
+  re-syncing from the player's mode switch, and a trailer starting inside that window could come back
+  silent or drop the picture.
+- CineDock Zidoo 0.2.10 offers 0.2.11 by itself; there is nothing to install by hand.
+
+## 4.9.4 - 25 September 2026
+
+**The television app now updates itself, and you can choose audio and subtitles before Play.** Container
+and Windows/Mac editions move to 4.9.4 with **CineDock TV 0.2.10** and **CineDock Zidoo 0.2.10** with
+Playback Helper 1.5.8.
+
+- **The television app updates itself.** CineDock TV 0.2.10 checks cinedock.tv once a day and, when a
+  newer signed build exists, offers to download and install it: Download or Later, Android asks before
+  anything installs, and your server address and settings are kept. Every download is checked for size,
+  SHA-256, package, version and the CineDock signing certificate before the installer opens. The
+  "TV app available" notice beside the wordmark now hands over to that offer.
+- **Choose audio and subtitles before Play (Fire TV and Shield).** A film's Info page now has Audio and
+  Subtitles below the action buttons. Player default keeps the player's own choice; Subtitles also
+  offers Off; a choice applies to that film only. Text subtitle formats are listed; image formats stay in
+  the player's own menu. Browser and Zidoo keep their player's track menu.
+- **Plex: half-watched films are back in Continue Watching.** CineDock read only Plex's On Deck list,
+  which holds next-up episodes, so a film stopped partway never appeared. It now reads Plex's Continue
+  Watching list first and adds next-up episodes after it.
+- **My collections.** Each profile can make its own collections without touching the media server:
+  manual film and series collections, or smart film collections from rules (genre, actor, director,
+  studio, year, rating, 4K, HDR) with a preview before saving. Open it from the top of the Collections view.
+- **Quit or Stay.** Back from Home now asks before CineDock closes, with Stay selected first.
+- **Info page.** The trailer fills a larger box, the title logo is slimmer, and the synopsis starts once
+  the title has drawn.
+- **Settings: Check for updates** on the television, present only in an app that can update itself.
+- **Help** covers all of the above, the self-updating TV app, and the Chromium 80 requirement for other
+  Android TV boxes.
+
 ## 4.9.3 - 18 September 2026
 
 **A television playback repair: no more black screen at the end of an episode.** Container and
