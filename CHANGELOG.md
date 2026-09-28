@@ -4,6 +4,17 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.6 - 28 September 2026
+
+**Jellyfin 12 works again.** Container and Windows/Mac editions move to 4.9.6. No television change:
+Fire TV and Shield stay on **CineDock TV 0.2.10**, Zidoo on **0.2.11** with Playback Helper 1.5.8.
+
+- Jellyfin 12.0 (8 September) switched off its older sign-in headers, and a migration switches them
+  off on servers that upgrade, so CineDock could not connect: the setup test answered "unexpected
+  error (HTTP 400)" with a username and password and "rejected the key/login" with an API key, and an
+  already-connected CineDock lost its library after the Jellyfin update. CineDock now signs in the way
+  Jellyfin 12 expects while still working with older Jellyfin and with Emby. Reported as issue #10.
+
 ## 4.9.5 - 25 September 2026
 
 **Zidoo: Back from a film returns to that film.** Container and Windows/Mac editions move to 4.9.5 with

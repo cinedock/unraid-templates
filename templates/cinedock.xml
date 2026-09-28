@@ -11,6 +11,15 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.9.6 (28 September 2026)
+- Jellyfin 12 works again. Jellyfin 12.0 switched off its older sign-in headers (and a migration switches them off on servers that upgrade), so CineDock could not connect: the setup test failed with a username and password (HTTP 400) and with an API key ("rejected the key/login"), and an already-connected CineDock lost its library after the Jellyfin update. CineDock now signs in the way Jellyfin 12 expects while still working with older Jellyfin and with Emby. Container and desktop editions move to 4.9.6; television apps are unchanged.
+
+### 4.9.5 (25 September 2026)
+- Zidoo: Back from a film returns to that film's Info page, not to the spotlight, and trailers wait ten seconds after you come back while the HDMI link settles. CineDock Zidoo 0.2.11 (Playback Helper 1.5.8 unchanged); CineDock Zidoo 0.2.10 offers it by itself. Container and desktop editions move to 4.9.5; Fire TV and Shield stay on CineDock TV 0.2.10.
+
+### 4.9.4 (25 September 2026)
+- The television apps now update themselves: CineDock TV 0.2.10 and CineDock Zidoo 0.2.10 (with Playback Helper 1.5.8) check cinedock.tv once a day and offer a newer signed build; install 0.2.10 over the existing app by hand one last time. Also: choose audio and subtitles before Play on Fire TV and Shield; Plex half-watched films are back in Continue Watching; Back from Home asks Quit or Stay; each profile can build its own My collections. Container and desktop editions move to 4.9.4.
+
 ### 4.9.3 (18 September 2026)
 - Television playback repair: an episode that stops a few seconds short no longer leaves Fire TV or Shield on a black screen; CineDock TV 0.2.9 finishes it normally, starting the next episode (including across a season) or returning after a finale. 0.2.9 keeps the 0.2.8 DTS fix; install it over the existing app when the TV app notice appears. Container and desktop editions move to 4.9.3; Zidoo is unchanged on the 0.2.9 + Playback Helper 1.2 pair.
 - Search no longer says "No matches" when your media server cannot be reached; it says so and asks you to try again.
