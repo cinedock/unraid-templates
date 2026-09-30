@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.9.7 (30 September 2026)
+- Settings from your profile name on a television: Home screen (rows, poster size, trailer choices) and Collections (Film, TV and Mixed, 44 suggested collections, smart TV collections). Season posters for series; Continue Watching newest first, one card per title, OK opens on the episode; biographies reworked; Emby and Jellyfin libraries read in about 10 seconds. CineDock TV 0.2.11 plays Info-page trailers in the app's own player (0.2.10 offers it by itself); Zidoo stays on 0.2.11 with Helper 1.5.8.
+
 ### 4.9.6 (28 September 2026)
 - Jellyfin 12 works again. Jellyfin 12.0 switched off its older sign-in headers (and a migration switches them off on servers that upgrade), so CineDock could not connect: the setup test failed with a username and password (HTTP 400) and with an API key ("rejected the key/login"), and an already-connected CineDock lost its library after the Jellyfin update. CineDock now signs in the way Jellyfin 12 expects while still working with older Jellyfin and with Emby. Container and desktop editions move to 4.9.6; television apps are unchanged.
 

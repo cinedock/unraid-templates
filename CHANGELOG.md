@@ -4,6 +4,26 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.7 - 30 September 2026
+
+**Settings from your name, a new Home screen and Collections.** Container and Windows/Mac editions move
+to 4.9.7, with **CineDock TV 0.2.11** for Fire TV and Shield (0.2.10 offers it by itself). Zidoo stays
+on **0.2.11** with Playback Helper 1.5.8.
+
+- On a television your profile name replaces the settings cog; Settings splits into **Home screen**
+  (which rows Home shows and in what order, poster size Standard/Large/Small, and With sound / Silent /
+  Off trailers for the Spotlight, rows and Info pages) and **Collections** (Film, TV and Mixed lists,
+  44 suggested collections matched to your library, smart TV collections).
+- Arrange Home rows: Left on a row opens its options (show or hide, change its place, numbering).
+- A series opens on its season posters; the episode screen shows the episode large with the cast.
+- Continue Watching is newest first on Plex and Jellyfin, shows each film or episode once even when it
+  is in two libraries, and OK on an episode opens on that episode.
+- Biographies open at the top, scroll by themselves and list each title once.
+- Emby and Jellyfin read a library in about 10 seconds instead of nearly four minutes; Jellyfin is no
+  longer sluggish.
+- **CineDock TV 0.2.11** plays Info-page trailers in the app's own player, so a Fire TV Cube no longer
+  keeps a trailer's sound and loses its picture after some hours.
+
 ## 4.9.6 - 28 September 2026
 
 **Jellyfin 12 works again.** Container and Windows/Mac editions move to 4.9.6. No television change:
