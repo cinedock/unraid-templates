@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.9.8 (1 October 2026)
+- Choose the version of the film you want: a film you own in more than one version (different cuts, or a 4K and an HD copy) shows once, and its More Info screen has a Version box. Versions are named by their cut from Plex's edition or the file name; each keeps its own resume point and your choice stays until you change it. Plex, Emby and Jellyfin; name files Title (Year) {edition-Cut Name}. More Info also gives the synopsis more room and no longer hides Country. No television app change.
+
 ### 4.9.7 (30 September 2026)
 - Settings from your profile name on a television: Home screen (rows, poster size, trailer choices) and Collections (Film, TV and Mixed, 44 suggested collections, smart TV collections). Season posters for series; Continue Watching newest first, one card per title, OK opens on the episode; biographies reworked; Emby and Jellyfin libraries read in about 10 seconds. CineDock TV 0.2.11 plays Info-page trailers in the app's own player (0.2.10 offers it by itself); Zidoo stays on 0.2.11 with Helper 1.5.8.
 

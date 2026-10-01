@@ -4,6 +4,22 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.9.8 - 1 October 2026
+
+**Choose the version of the film you want.** Container and Windows/Mac editions move to 4.9.8. No
+television change: Fire TV and Shield stay on **CineDock TV 0.2.11**, Zidoo on **0.2.11** with
+Playback Helper 1.5.8.
+
+- A film you own in more than one version - different cuts such as the Final Cut and the Theatrical
+  Cut, or a 4K and an HD copy - shows once in rows and search, and its More Info screen has a
+  **Version** box: OK opens the list and you choose the version to watch.
+- Versions are named by their cut, from Plex's edition or the file name; the badges change with the
+  version, each keeps its own resume point, and your choice stays until you change it.
+- Plex, Emby and Jellyfin. Name files `Title (Year) {edition-Cut Name}`; each version in its own folder
+  is recommended (cinedock.tv/guide, More Info).
+- More Info gives the synopsis more room, keeps the trailer above the title, and no longer hides
+  Country.
+
 ## 4.9.7 - 30 September 2026
 
 **Settings from your name, a new Home screen and Collections.** Container and Windows/Mac editions move
