@@ -4,6 +4,27 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.10.0 - 3 October 2026
+
+**Settings in four tabs, Franchises, and more in the series.** Container and Windows/Mac editions move
+to 4.10.0. No change to the Fire TV and Shield app: it stays on **CineDock TV 0.2.11**.
+
+- Settings (on a television, choose your name) is now **Layout, Collections, Trailers and Settings**,
+  with a help panel and key hints. Layout has poster size, which entries show in the top menu, Home
+  rows and the Spotlight. Settings opens on the tab you used last.
+- The top menu separates **Franchises** (your server's own film sets, A-Z) from **Collections** (the
+  ones you make in CineDock).
+- **More in this series** on a film's page, and **Check for missing films** on a franchise, show the
+  whole TMDB collection in release order, with the films you do not have greyed. It needs a TMDB key.
+- **New collection** (it lands at the top of Home), **Suggested collections**, and **nested
+  collections** that hold other collections. Hold OK on a film to add it to a collection or start a
+  franchise of your own. **Feature in Spotlight** lets one collection take over the big picture.
+- The film page shows how long is left and when the film would end.
+- On a television, text boxes wait for OK before the keyboard opens, and inside a section Up no
+  longer leaves for the top bar (Back does).
+- Fixes: a Settings lock-up on Down from the profile chip, and Jellyfin films added since the
+  library index was built no longer show as missing.
+
 ## 4.9.8 - 1 October 2026
 
 **Choose the version of the film you want.** Container and Windows/Mac editions move to 4.9.8. No
