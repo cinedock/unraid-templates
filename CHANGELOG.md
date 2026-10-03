@@ -4,6 +4,14 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.10.1 - 3 October 2026
+
+**Help catches up with the new Settings.** Container and Windows/Mac editions move to 4.10.1. In-app
+Help only; no television app change.
+
+- The in-app Help now points to the right places in the four-tab Settings (Layout, then Home rows;
+  Trailers; Settings) and describes Franchises and Check for missing films.
+
 ## 4.10.0 - 3 October 2026
 
 **Settings in four tabs, Franchises, and more in the series.** Container and Windows/Mac editions move

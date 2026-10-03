@@ -11,6 +11,9 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.10.1 (3 October 2026)
+- In-app Help catches up with the new four-tab Settings: it points to the right places and describes Franchises and Check for missing films. No other change.
+
 ### 4.10.0 (3 October 2026)
 - Settings in four tabs on a television: Layout (poster size, top menu, Home rows, Spotlight), Collections, Trailers and Settings, with a help panel and key hints. The top menu separates Franchises (your server's own film sets) from Collections (the ones you make).
 - More in this series on a film's page, and Check for missing films on a franchise: the whole TMDB collection in release order, films you do not have greyed (needs a TMDB key).
