@@ -4,6 +4,11 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.10.2 - 3 October 2026
+
+**Internal tidy-up.** Container and Windows/Mac editions move to 4.10.2. No visible change and no
+television app change.
+
 ## 4.10.1 - 3 October 2026
 
 **Help catches up with the new Settings.** Container and Windows/Mac editions move to 4.10.1. In-app
