@@ -722,7 +722,7 @@ Major feature release.
 - Made navigation and the poster-bleed mask turn true black while browsing shelves and on pages
   without a Spotlight.
 - Removed the television-only font clamps that caused inconsistent sizing at 720p, 1080p and 4K.
-- Adopted the field-tested television proportions used by ManchVideo for posters, rows, navigation
+- Adopted field-tested television proportions for posters, rows, navigation
   spacing and library Spotlights while retaining CineDock's gold identity and inset Home layout.
 - Corrected device guidance: Fire TV and NVIDIA Shield are identified as tested; other Android TV
   and Google TV devices are described as expected to work but untested; the incorrect Zidoo support
@@ -764,7 +764,7 @@ Major feature release.
 
 ## 4.1.2 — 9 August 2026
 
-- Ported ManchVideo's visibility lifecycle handling so active Spotlight and row trailers stop
+- Added visibility lifecycle handling so active Spotlight and row trailers stop
   immediately when CineDock is backgrounded. The remaining in-flight row lookup race was closed in
   4.1.3.
 - Added the boot-hidden media sweep for Android TV WebViews opened without foreground visibility.
@@ -781,7 +781,7 @@ Major feature release.
 
 ## 4.1.0 / CineDock TV 0.2.1 — 8 August 2026
 
-- Reworked Spotlight using the proven ManchVideo full-bleed presentation.
+- Reworked Spotlight with a full-bleed presentation.
 - Balanced Spotlight choices across releases, anticipated titles and the wider library instead of
   simply mirroring the first shelf.
 - Let real trailers run to completion; static artwork advances after 25 seconds.
