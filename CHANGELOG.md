@@ -4,6 +4,10 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.10.4 - 5 October 2026
+
+**Zidoo path substitution.** Container and Windows/Mac editions move to4.10.4. With Playback Helper1.6.3, computer/phone Settings can map a Windows drive/UNC or Linux media-server folder to its mounted Zidoo folder. Home Theater matching stays first; a verified mapped plain video file is next, with the existing stream as fallback. Chapters do not require a Home Theater match; the rich poster panel still depends on the Zidoo recognizing the file. [Setup guide](https://cinedock.tv/guide#zidoo-path-substitution). CineDock Zidoo0.2.12 supplies the paired helper update; install the helper first. Standard FireTV/Shield remains0.2.11.
+
 ## 4.10.3 - 3 October 2026
 
 **Internal tidy-up.** Container and Windows/Mac editions move to 4.10.3. No visible change and no
