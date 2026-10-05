@@ -153,8 +153,8 @@ is available. Zidoo is unchanged on the **CineDock Zidoo 0.2.9 + Playback Helper
   shows rank numbers on Home and through See all, in the order the list has on your media server.
 - Switching profile no longer leaves the previous profile's library tabs showing (or empty) until the
   page is reloaded.
-- Settings â†’ Libraries now sets the order of the library tabs as well as which appear. On a remote,
-  â–¶ picks a library up, â–²â–¼ move it and OK puts it down; with a mouse, use the arrows on each row. Back saves.
+- Settings → Libraries now sets the order of the library tabs as well as which appear. On a remote,
+  ▶ picks a library up, ▲▼ move it and OK puts it down; with a mouse, use the arrows on each row. Back saves.
 
 ## 4.9.2 - 14 September 2026
 
@@ -175,13 +175,13 @@ Zidoo uses the separately released **CineDock Zidoo 0.2.9 + Playback Helper 1.2*
 
 - **Every D-pad direction now answers.** Dead ends give a short visual nudge, Back unwinds one layer,
   the profile menu carries Exit CineDock, and Left on the first shelf card no longer opens the shelf.
-- **Any individual playlist can be a Home row.** Open Settings â†’ Home shelves, find it under
+- **Any individual playlist can be a Home row.** Open Settings → Home shelves, find it under
   Your playlists and switch it on. The existing Playlists top-menu tab remains.
 - **Playlist work is quicker and more complete.** Creation avoids slow duplicate-name probes.
   Emby supports Move up/Move down; Jellyfin does too with a user login rather than an API key alone.
 - **Search finds people and studios.** With TMDB and Seerr configured, a person's broader filmography
   can also show missing titles that are available to request.
-- **Library choices now work on Plex, Emby and Jellyfin.** Settings â†’ Libraries controls which
+- **Library choices now work on Plex, Emby and Jellyfin.** Settings → Libraries controls which
   already-authorised libraries appear in that profile's top menu and library-led Home rows. It does
   not change server permissions.
 - **Zidoo follows its own paired update track.** Install Playback Helper first, CineDock Zidoo
@@ -200,7 +200,7 @@ move together to 4.9.0. CineDock TV stays at **0.2.8**; no new APK is needed.
 - **Mixed playlist playback follows the saved order.** Start at the top or from an entry's information
   page, then continue to the next film or episode in that playlist. Ordinary series playback keeps
   series order. Resume and watched state remain shared with your selected media-server user.
-- **Choose Plex libraries per profile in Settings â†’ Libraries.** The menu, Home, Search and Continue
+- **Choose Plex libraries per profile in Settings → Libraries.** The menu, Home, Search and Continue
   Watching follow the saved choice. Plex sidebar pins are separate; server permissions still apply.
 - **TV previews keep matching artwork while loading.** Row, Spotlight, series-detail and startup
   previews avoid the brief play-placeholder flash on older TV browsers. Scoped trailer requests keep
@@ -214,7 +214,7 @@ move together to 4.9.0. CineDock TV stays at **0.2.8**; no new APK is needed.
   setup, profiles, library and Home choices, every playlist action, playback and troubleshooting.
   **Correction, 10 September:** that cache-clear advice did not fix the Zidoo hand-off fault. Current Zidoo use requires the dedicated CineDock Zidoo + Playback Helper pair described in 4.9.1.
 
-## 4.8.9 â€” 4 September 2026
+## 4.8.9 — 4 September 2026
 
 A fix for the series page, released outside the Friday cycle. The Windows and Mac editions move
 to 4.8.9 with the container; the TV app is unchanged at 0.2.8 and does not need reinstalling.
@@ -231,7 +231,7 @@ to 4.8.9 with the container; the TV app is unchanged at 0.2.8 and does not need 
   overflowed and a library tab was folded away behind "More" that newer televisions still show.
   The tabs and the shelf cards now sit at the same spacing everywhere.
 
-## 4.8.8 â€” 4 September 2026
+## 4.8.8 — 4 September 2026
 
 The first Friday bundle: four fixes and a resized Home screen, measured on the
 television. **CineDock TV 0.2.8 is released the same day** and is what makes the audio fix do
@@ -258,7 +258,7 @@ editions move to 4.8.8 with the container.
   describe the new grammar.
 - **Search.** On Plex, searching for a series returned every one of its episodes dressed as
   shows; a series now appears once, and an episode only when its own title matches. An episode
-  result names its show - "Man on Fire Â· Four" rather than "Four".
+  result names its show - "Man on Fire · Four" rather than "Four".
 - **The Home screen.** Posters are smaller and more of them fit across the screen, with a wider
   gap, larger headings and synopsis, and the episode label on the same line as the year and
   rating. Every shelf now scrolls the same way: the focused title stays in line with the row
@@ -267,7 +267,7 @@ editions move to 4.8.8 with the container.
 - The Spotlight reel starts at a random featured title. Televisions on TV app 0.2.7 or older are
   offered 0.2.8.
 
-## 4.8.7 â€” 29 August 2026
+## 4.8.7 — 29 August 2026
 
 The television's Help screen works with a remote. The TV app is unchanged at 0.2.7.
 
@@ -282,16 +282,16 @@ The television's Help screen works with a remote. The TV app is unchanged at 0.2
   Settings" was painted over the last few topics, and moving the highlight onto one of them made
   it vanish underneath.
 - **The Windows and Mac editions are on 4.8.7 as well.** They stayed at 4.8.5 for a few days
-  through no fault of their own â€” their build kept finishing and then failing at the final step,
+  through no fault of their own — their build kept finishing and then failing at the final step,
   on a monthly limit that reset on 1 September. Nothing was missing from them; they simply could
   not be handed over. They are published now.
 
-## 4.8.6 â€” 28 August 2026
+## 4.8.6 — 28 August 2026
 
 Televisions are told that TV app 0.2.7 exists. No other change.
 
 - **Televisions on TV app 0.2.6 or older are now offered 0.2.7.** On boxes that hand playback to
-  the device's own player â€” Zidoo players do this â€” 0.2.7 is what makes the screen catch up when
+  the device's own player — Zidoo players do this — 0.2.7 is what makes the screen catch up when
   you come back from an episode: until now the one you had just finished was still offered as the
   next, and its tick did not appear until the app was restarted. 4.8.5 put the mechanism in place;
   0.2.7 is the half that lives on the television, and this release is the only thing that tells
@@ -299,9 +299,9 @@ Televisions are told that TV app 0.2.7 exists. No other change.
 - **The television setup guide now says to restart the box after installing the TV app**, and why.
   Installing an app leaves an Android television busy optimising code and reclaiming memory, and
   on boxes that hand playback to their own player that can end CineDock during the first thing you
-  play â€” which looks exactly like a fault in the new version. A restart clears it.
+  play — which looks exactly like a fault in the new version. A restart clears it.
 
-## 4.8.5 â€” 28 August 2026
+## 4.8.5 — 28 August 2026
 
 A film no longer freezes part-way through. The TV app is unchanged at 0.2.6.
 
@@ -313,72 +313,72 @@ A film no longer freezes part-way through. The TV app is unchanged at 0.2.6.
   measured before release: an eighteen-minute silence mid-film, the connection killed with 380 MB
   still owed, and every byte delivered intact.
 - **"More like this" works again for anyone signed in.** On Plex, a viewer who signs in with a PIN
-  saw an empty More Like This row on every film and programme, permanently â€” and each visit to a
+  saw an empty More Like This row on every film and programme, permanently — and each visit to a
   series page silently began a scan of the whole library whose result was thrown away when the
   page finished loading. Only the owner's own profile was unaffected, which is why it went unseen.
 - **Playback links and error handling.** A playback link now expires once it has gone unused for a
-  while, instead of living as long as the app was running â€” and a link in the middle of delivering
+  while, instead of living as long as the app was running — and a link in the middle of delivering
   a film is never touched. When a media server refuses a request, CineDock passes on what it
   actually said instead of reporting a generic failure. A media server's own credentials are no
   longer sent on if a request is redirected to a different machine, port, or an unencrypted
   connection.
-- **Televisions still on TV app 0.2.4 or 0.2.5 are now offered 0.2.6** â€” the release that fixes
+- **Televisions still on TV app 0.2.4 or 0.2.5 are now offered 0.2.6** — the release that fixes
   the app closing at the end of an episode. 4.8.4 was still pointing at 0.2.5, which does not
   contain that fix.
 
-## 4.8.4 â€” 27 August 2026
+## 4.8.4 — 27 August 2026
 
 A remote can mark one episode watched again. The TV app is unchanged at 0.2.5.
 
-- **Marking a single episode from the remote.** On a series page, â–¶ on a highlighted episode
-  steps onto the episode's own âœ“ tick â€” the card stays lit beneath it â€” and OK marks that one
-  episode watched or unwatched. â—€ steps back to the episode; OK on the episode itself still
+- **Marking a single episode from the remote.** On a series page, ▶ on a highlighted episode
+  steps onto the episode's own ✓ tick — the card stays lit beneath it — and OK marks that one
+  episode watched or unwatched. ◀ steps back to the episode; OK on the episode itself still
   plays it. This route had been missing since the one-page series redesign in 4.6.0: only a
   keyboard's W key and a mouse click survived, so a television remote had no way to correct a
   single episode. The tick is deliberately unlike the season control in the button row, so one
   episode can never be mistaken for a whole season.
 - The television Help's "Marking watched" topic and the cinedock.tv guide now describe the new
   grammar.
-- **Televisions still on TV app 0.2.4 are now offered 0.2.5** â€” the update released earlier
+- **Televisions still on TV app 0.2.4 are now offered 0.2.5** — the update released earlier
   today with WebView-recovery and crash-reporting improvements.
 
-## 4.8.3 â€” 27 August 2026
+## 4.8.3 — 27 August 2026
 
 Help worth the name. The TV app is unchanged at 0.2.4.
 
 - **The television's Help now carries the full guide.** Every topic screen holds its section of
-  cinedock.tv/guide word for word â€” thirteen topics, from the remote to Requests â€” with Up/Down
+  cinedock.tv/guide word for word — thirteen topics, from the remote to Requests — with Up/Down
   scrolling the longer ones, and Back returning to the topic you came from.
 - **The Help page leads with the route to the real thing:** the guide's address with a QR code
   beside it, so help is point-your-phone-and-you-are-there.
 - Pages that depend on something say so large: a TMDB key for biographies, Seerr for Requests,
   local trailer files for reliable trailers on a television.
 
-## 4.8.2 â€” 27 August 2026
+## 4.8.2 — 27 August 2026
 
 A faster series page, a Help worth the name, and CineDock stops curating. The TV app is unchanged
 at 0.2.4.
 
 - **The curated shelves are gone.** Hidden Gems, Top by Actor or Director and Top from a Studio
   have been removed, on a simple principle: your collections are yours to make, and CineDock does
-  not curate for you. Recently Watched and Playlists stay â€” they surface the server's own records â€”
+  not curate for you. Recently Watched and Playlists stay — they surface the server's own records —
   and the Seasonal shelves are untouched. A removed shelf simply leaves Home; everything else in a
   saved arrangement stays where it was.
-- **Help now covers the whole application.** The television's Help walks every screen â€” Remote
+- **Help now covers the whole application.** The television's Help walks every screen — Remote
   basics, Who's watching, Home, Home shelves, Seasonal, Collections, Watchlist, Browse & Search,
-  More Info, Playback and Requests â€” in the same order and words as the rewritten guide at
+  More Info, Playback and Requests — in the same order and words as the rewritten guide at
   cinedock.tv/guide.
 - **A series page opens from Continue Watching without the long pause.** On Plex, More Like This
-  rebuilt a whole-library inventory inline when its six-hour copy lapsed â€” ten seconds on a large
+  rebuilt a whole-library inventory inline when its six-hour copy lapsed — ten seconds on a large
   library. It now refreshes behind the request, and Continue Watching tiles prefetch the page OK
   actually opens.
 
-## 4.8.1 â€” 26 August 2026
+## 4.8.1 — 26 August 2026
 
 Three fixes from 4.8.0's first evening in real use. The TV app is unchanged at 0.2.4.
 
 - **Home's Continue Watching advances by itself.** Watch an episode and the row stayed on the one
-  before until you signed out and back in â€” it refreshed only in the seconds after the player
+  before until you signed out and back in — it refreshed only in the seconds after the player
   closed, before the server had advanced its own On Deck. It now keeps asking for up to two and a
   half minutes and stops the moment the row moves.
 - **A deleted library leaves the menu on the next request.** Home is cached for ten minutes, so a
@@ -387,9 +387,9 @@ Three fixes from 4.8.0's first evening in real use. The TV app is unchanged at 0
 - The television help row is now simply **Help**, and the browser card that opens the full
   cinedock.tv guide is **User guide**.
 
-## 4.8.0 â€” 26 August 2026
+## 4.8.0 — 26 August 2026
 
-Five features and one look. The TV app is unchanged at 0.2.4 â€” it loads all of this from your
+Five features and one look. The TV app is unchanged at 0.2.4 — it loads all of this from your
 container, no new APK needed.
 
 - **Protected profiles are honoured on Emby and Jellyfin.** A profile with a password on the server
@@ -397,53 +397,53 @@ container, no new APK needed.
   in. Choosing a profile now talks to the server as that user, so per-user library visibility and
   parental limits are enforced by the server itself.
 - **A Requests tab, when you run Seerr.** Connect Overseerr or Jellyseerr once in Settings and a
-  Requests tab appears: search for anything and press Request â€” Seerr forwards it to your Radarr or
+  Requests tab appears: search for anything and press Request — Seerr forwards it to your Radarr or
   Sonarr. No Seerr, no tab.
 - **Seasonal shelves.** Around each occasion a themed shelf drawn from your own library appears by
-  itself â€” Fright Night at Halloween, 'Tis the Season at Christmas â€” and in the days around the
+  itself — Fright Night at Halloween, 'Tis the Season at Christmas — and in the days around the
   occasion Home dresses for the party: seasonal featured titles and a backdrop framing the
   billboard. One toggle in the Home-shelves picker switches shelf and look off together.
-- **Settings rebuilt.** On the TV: a small D-pad screen â€” Home shelves, Who's watching, a built-in
+- **Settings rebuilt.** On the TV: a small D-pad screen — Home shelves, Who's watching, a built-in
   How to use CineDock guide, and a QR code that hands setup to a phone or computer. In a browser:
   what you are connected to, the optional extras, and a Report what I watch switch that no longer
   requires re-running setup. The full guide lives at cinedock.tv/guide.
 - **The menu bar scales, and the app introduces itself.** Libraries that do not fit fold behind a
-  More entry; on television the wordmark moves to a boot splash â€” the emblem performs, then the
-  name â€” shown only when there is genuinely loading to cover.
+  More entry; on television the wordmark moves to a boot splash — the emblem performs, then the
+  name — shown only when there is genuinely loading to cover.
 - **One colour scheme throughout**, one selection ring everywhere (the profile picker previously
   had none), true circles on the series page, and the setup wizard finally in CineDock's own
   colours.
-- **Back undoes one layer, everywhere.** Choosing a subtitle then pressing Back closes the menu â€”
+- **Back undoes one layer, everywhere.** Choosing a subtitle then pressing Back closes the menu —
   the film keeps playing. In the shelf picker, Back puts a carried shelf down first.
 
-## 4.7.1 â€” 25 August 2026
+## 4.7.1 — 25 August 2026
 
 Two faults in television series, both reported in use. The TV app is unchanged at 0.2.4.
 
 - **A finished episode shows as watched straight away.** The tick always reached the server, but the
   episode list open behind the player kept the card it was drawn with, so you had to leave the
-  programme and come back. It now refreshes from the server when the player closes â€” and keeps
+  programme and come back. It now refreshes from the server when the player closes — and keeps
   looking for up to two and a half minutes, because playback on a Fire TV is not driven by CineDock
   and progress arrives on a two-minute beat.
 - **A series resumes where you were, however you reached it.** Continue Watching carried the exact
   episode; arriving from search, a shelf or Browse lost it and started from episode one. Play now
-  goes to the same episode, and the button says which â€” "Resume S1 E2" rather than "Play".
+  goes to the same episode, and the button says which — "Resume S1 E2" rather than "Play".
 - The brief "what's new" notice on first launch after an update has been removed: too quick to read,
   and its text had to be rewritten by hand each release, so it announced the previous one.
 - A series' action icons now match a film's exactly.
 
-## 4.7.0 â€” 24 August 2026
+## 4.7.0 — 24 August 2026
 
 **Collections.** The Fire TV / Shield / Zidoo app is unchanged at 0.2.4 (`versionCode 6`).
 
-- **Seasonal shelves.** One shelf that appears only inside its season and is named for it â€”
-  *'Tis the Season*, *Fright Night*, *Love Is in the Air*, *Hop To It* and *Gather Round* â€” showing
+- **Seasonal shelves.** One shelf that appears only inside its season and is named for it —
+  *'Tis the Season*, *Fright Night*, *Love Is in the Air*, *Hop To It* and *Gather Round* — showing
   the films you already own that belong to it. Matching is by TMDB id, never by title, so *The
   Snowman* (2017), a crime thriller, cannot arrive in place of *The Snowman* (1982). Outside every
   window there is no shelf at all rather than an empty one. The lists ship inside the image; nothing
   is sent anywhere.
 - **Four more kinds of shelf:** Recently Watched, Top by Actor or Director, Top from a Studio, and
-  your Playlists â€” on Emby, Jellyfin and Plex.
+  your Playlists — on Emby, Jellyfin and Plex.
 - **Collections now appear when you search**, and open the collection rather than an information
   page it does not have. The shelf picker has a search box of its own, which matters if you have
   hundreds.
@@ -451,16 +451,16 @@ Two faults in television series, both reported in use. The TV app is unchanged a
   different for each person in the house. It used to change on every visit, which moved a card under
   your thumb.
 - **Short and Sweet has been removed.**
-- **Fixed â€” a viewer's profile now restricts what they can play, on Emby and Jellyfin.** Choosing a
+- **Fixed — a viewer's profile now restricts what they can play, on Emby and Jellyfin.** Choosing a
   profile changed which My List you saw and nothing else, so a child's profile could still play a
   title that profile is not allowed. It cannot now, and a refusal says so plainly instead of
   suggesting you try again. Plex was never affected.
 - A television series' buttons are now the same icons a film has, and episode synopses are no longer
-  cut off mid-sentence â€” the focused episode scrolls its own text after a pause.
+  cut off mid-sentence — the focused episode scrolls its own text after a pause.
 - Jellyfin owners: the library scan behind the seasonal shelf takes about a third of the time, and
   no index is ever built while you wait for Home.
 
-## 4.6.2 â€” 22 August 2026
+## 4.6.2 — 22 August 2026
 
 **A maintenance release. Nothing changes on screen**, and the Fire TV / Shield / Zidoo app is
 unchanged at 0.2.4 (`versionCode 6`).
@@ -479,7 +479,7 @@ unchanged at 0.2.4 (`versionCode 6`).
 - The tray menu's labels are visible again. On Windows the right-click menu appeared with its items
   working but no text on them, so there was no way to tell what any of them did.
 
-## 4.6.0 â€” 21 August 2026
+## 4.6.0 — 21 August 2026
 
 **Television series, seasons and episodes now live together on one page.**
 
@@ -497,22 +497,22 @@ unchanged at 0.2.4 (`versionCode 6`).
 - Container, Windows and both macOS editions are now 4.6.0. The separately versioned TV app is
   unchanged at 0.2.4 (`versionCode 6`).
 
-## 4.5.1 â€” 20 August 2026
+## 4.5.1 — 20 August 2026
 
 **The desktop upgrade notice now takes you to the update.** 4.5.0's "Upgrade available" chip
 announced a newer build but was not clickable, and older desktops' Settings link pointed at the TV
-app's page. The chip now opens the right release page when clicked. Desktop editions only â€”
+app's page. The chip now opens the right release page when clicked. Desktop editions only —
 containers never show the notice, and nothing else changes.
 
-## 4.5.0 â€” 20 August 2026
+## 4.5.0 — 20 August 2026
 
 **Collections, and a Home that belongs to the viewer.**
 
-- **Collections merged across libraries.** A collection split over several libraries â€” the same
-  franchise in Films, TV and a box-set library â€” is now one shelf, with a line saying where its
+- **Collections merged across libraries.** A collection split over several libraries — the same
+  franchise in Films, TV and a box-set library — is now one shelf, with a line saying where its
   titles came from. Works on Emby, Jellyfin and Plex.
 - **A Collections tab that is the chooser.** Pick what appears on Home and in what order, from
-  everything your server offers â€” your own collections, genres, library rows and CineDock's
+  everything your server offers — your own collections, genres, library rows and CineDock's
   built-in shelves. Collections you make yourself arrive switched on; anything CineDock guessed at
   arrives off and marked New, so Home never rearranges itself behind you.
 - **Home is per viewer.** Each profile keeps its own arrangement.
@@ -526,9 +526,9 @@ containers never show the notice, and nothing else changes.
 - Television polish: a lighter selection band, menus as words rather than chips, and a quieter
   watched tick. Browsers, phones and the TV app (0.2.4) unchanged.
 
-## 4.4.0 â€” 19 August 2026
+## 4.4.0 — 19 August 2026
 
-**The More Info screen, finished â€” and a line drawn under 4.3.4 and 4.3.5.** Those two shipped the
+**The More Info screen, finished — and a line drawn under 4.3.4 and 4.3.5.** Those two shipped the
 redesigned ten-foot info screen; four defects found on a real television the same night pulled them
 back within hours. 4.4.0 fixes all of them, fixes what was found checking the fix, and adds the
 identity the page was missing. Browsers and phones are unchanged; the TV app is unchanged (0.2.4).
@@ -537,11 +537,11 @@ identity the page was missing. Browsers and phones are unchanged; the TV app is 
 - The info-screen trailer is now seen, not only heard: on Fire TV the clip played on a hardware plane
   behind the page and the rounded, clipped box never left a hole for it. It now plays in a fixed
   layer over the box, exactly as the row previews always have. No "TRAILER" label.
-- Up on a film no longer marks it watched: the â–² shortcut belongs to the season and episode screens
+- Up on a film no longer marks it watched: the ▲ shortcut belongs to the season and episode screens
   only; on the detail screen Up just steps out of the cast rail.
 - The Spotlight artwork no longer vanishes after an info screen; the billboard comes back intact and
   its trailer resumes.
-- Browse All: the Aâ€“Z rail is no longer a dead end; Home from the menu really goes Home; deeper amber
+- Browse All: the A–Z rail is no longer a dead end; Home from the menu really goes Home; deeper amber
   selection and a slightly enlarged selected poster, so it reads over pale art.
 - Plex "Recently Added" shows the programme, not "Season 1" / "Season 18".
 - Confirm dialogs open in silence and the trailer returns afterwards; backgrounding the app stops the
@@ -549,14 +549,14 @@ identity the page was missing. Browsers and phones are unchanged; the TV app is 
 
 **New (television info screen)**
 - Clearlogo from your server replaces the typeset title (Plex, Emby, Jellyfin); type stays if none.
-- Ratings with their source â€” IMDb, Rotten Tomatoes critic/audience, TMDB or the plain star â€” only
+- Ratings with their source — IMDb, Rotten Tomatoes critic/audience, TMDB or the plain star — only
   what the server recorded.
 - Plex-style action buttons; the director's portrait; the Dolby mark on Dolby badges.
 
 Known and unchanged: on Emby and Jellyfin the info-screen trailer plays only for titles with a local
 trailer file; Jellyfin's first Home load is slow.
 
-## 4.3.5 â€” 18 August 2026
+## 4.3.5 — 18 August 2026
 
 **Completes the redesigned More Info screen released in 4.3.4 earlier the same day.** The trailer
 described in that release did not actually play on a television. This fixes it. Nothing else is new.
@@ -574,10 +574,10 @@ described in that release did not actually play on a television. This fixes it. 
 
 Browsers and phones are unchanged, and the Fire TV / Shield / Zidoo app is unchanged (0.2.4).
 
-## 4.3.4 â€” 18 August 2026
+## 4.3.4 — 18 August 2026
 
 **The More Info screen has been redesigned for televisions.** Browsers and phones are unchanged, and
-the Fire TV / Shield / Zidoo app is unchanged (0.2.4 remains current) â€” this is a container update
+the Fire TV / Shield / Zidoo app is unchanged (0.2.4 remains current) — this is a container update
 only.
 
 - **The whole page fits one screen.** It used to run to one and a half screens for a film and over
@@ -587,8 +587,8 @@ only.
   gone; the artwork is dimmed behind the page and the moving picture is boxed, so text never sits on
   top of a picture. The description is noticeably larger, and the layout uses the full width of the
   screen instead of leaving a third of it empty.
-- **Media information is shown** â€” resolution, HDR or Dolby Vision, video codec, frame rate, and the
-  audio format with its channel layout â€” for a film and for each individual episode. Only what your
+- **Media information is shown** — resolution, HDR or Dolby Vision, video codec, frame rate, and the
+  audio format with its channel layout — for a film and for each individual episode. Only what your
   own server reports is shown; nothing is guessed.
 - **Director, studio and country** are shown where they are known.
 - **Seasons and episodes have their own screens.** The season picker opens on the season you are
@@ -596,8 +596,8 @@ only.
   not seen, marked NEXT. Each season shows its own artwork. Pressing OK on an episode plays it.
 - **Marking things watched is now obvious.** Up marks a film, a season or a single episode watched
   or unwatched, and the screen says so. It was always possible; nothing told you.
-- **The two actions that cannot be undone now ask first** â€” marking a whole season watched, and
-  removing a title from Continue Watching â€” with the safe answer already selected.
+- **The two actions that cannot be undone now ask first** — marking a whole season watched, and
+  removing a title from Continue Watching — with the safe answer already selected.
 - **A trailer plays, with sound, on the info screen** when your server holds a trailer file for that
   title; otherwise the still image stays. It starts after a short pause so browsing stays quiet, and
   it stops as soon as you press Play, open the episode list or leave the page.
@@ -606,7 +606,7 @@ only.
 - Fixed: opening the info screen could leave the main billboard trailer playing behind it, so two
   soundtracks played at once.
 
-## Fire TV / Shield / Zidoo app 0.2.4 â€” 18 August 2026
+## Fire TV / Shield / Zidoo app 0.2.4 — 18 August 2026
 
 A new APK. Installs over any earlier version in place (same signing certificate); your saved
 CineDock address is kept.
@@ -618,11 +618,11 @@ CineDock address is kept.
   offers the next one. Nothing extra to install on the box (no PlexToZidoo or ZidooPlexMod), and
   nothing to configure. Tested on a Zidoo Z9X 8K; other Zidoo models with the same player are
   expected to work but are untested.
-- On Fire TV, Shield and every other device the app behaves exactly as 0.2.3 â€” the Zidoo path is
+- On Fire TV, Shield and every other device the app behaves exactly as 0.2.3 — the Zidoo path is
   used only when a Zidoo player is present.
 - Needs container 4.3.3 or later for the interface to display correctly on a Zidoo (below).
 
-## 4.3.3 â€” 18 August 2026
+## 4.3.3 — 18 August 2026
 
 Zidoo support release for the interface; no new features for other devices. Pairs with app 0.2.4
 above.
@@ -631,25 +631,25 @@ above.
   Chromium). Two things were wrong there: CineDock mistook the Zidoo for a desktop computer (it
   reports a mouse-style pointer and carries no "Android TV" marker) and showed it the desktop layout;
   and that engine lacks a few newer layout features, so posters in the rows were invisible until a
-  card was selected. Both fixed â€” the TV app now always gets the television layout, and the page
+  card was selected. Both fixed — the TV app now always gets the television layout, and the page
   detects the missing features and uses exact equivalents. Fire TV, Shield and browsers are
   unaffected (verified identical layout).
 - Help page and README: Zidoo Z9X 8K added to the tested devices; the old "Zidoo not supported"
   warning replaced. Download links now point at the latest app release.
 
-## 4.3.2 â€” 17 August 2026
+## 4.3.2 — 17 August 2026
 
 Performance release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
 
 - Fixed the long black wait on first launch. On Plex, building the Home screen asked the server for
   its whole personalised hub set, which Plex computes slowly when it has been idle (measured 10.5 s
-  cold) â€” almost all of the 12â€“15 seconds a new Fire TV Stick waited for Home. "Recently Released"
+  cold) — almost all of the 12–15 seconds a new Fire TV Stick waited for Home. "Recently Released"
   now comes straight from the movie libraries; the row keeps the same titles in the same order.
 - Home is never rebuilt in front of you when any copy exists: an expired copy is shown at once and
   refreshed in the background, and Home is pre-warmed a few seconds after the container starts.
   Measured on a Fire TV Stick with an empty cache: whole first screen in under a second, from 15.
 
-## 4.3.1 â€” 16 August 2026
+## 4.3.1 — 16 August 2026
 
 Bug-fix release; no new features. The Fire TV / Shield app is unchanged (0.2.3 is current).
 
@@ -658,7 +658,7 @@ Bug-fix release; no new features. The Fire TV / Shield app is unchanged (0.2.3 i
 - Fixed the Search and Requests pages opening with their heading and input partly under the header.
 - The in-app help page now points at the new support page, cinedock.tv/support.
 
-## Fire TV / Shield app 0.2.3 â€” 16 August 2026
+## Fire TV / Shield app 0.2.3 — 16 August 2026
 
 A new APK. Installs over any earlier version in place (same signing certificate); your saved
 CineDock address is kept.
@@ -666,18 +666,18 @@ CineDock address is kept.
 - Fixed the app closing mid-film on 1 GB Fire TV Sticks (Fire TV Stick HD): the player could run
   out of memory because the app was limited to 128 MB of Java heap while holding both the
   interface and up to three minutes of buffered video. The app now requests the large heap and,
-  on low-memory devices, buffers 30â€“90 seconds instead of 50â€“180 seconds.
+  on low-memory devices, buffers 30–90 seconds instead of 50–180 seconds.
 - The container is unchanged; the interface still comes from it, so this APK does not need
   reinstalling for container updates.
 
-## 4.3.0 â€” 16 August 2026
+## 4.3.0 — 16 August 2026
 
 Major feature release: browse your whole library.
 
-- Added **Browse All** â€” every library opens as a full poster grid of its entire contents, sorted by
-  Title Aâ€“Z, Recently added, Release date or Rating, with an Unwatched filter and a genre filter.
+- Added **Browse All** — every library opens as a full poster grid of its entire contents, sorted by
+  Title A–Z, Recently added, Release date or Rating, with an Unwatched filter and a genre filter.
   The grid is paged and windowed so a 15,000-title library stays usable on a Fire TV Stick.
-- Added an **Aâ€“Z rail** for jumping straight to any letter; offsets come from the media server, so a
+- Added an **A–Z rail** for jumping straight to any letter; offsets come from the media server, so a
   jump to T lands on the first T.
 - Added a **Genres** page listing every genre a library actually contains, with title counts and
   artwork, opening straight into the filtered grid.
@@ -688,14 +688,14 @@ Major feature release: browse your whole library.
   exactly to the library total on all three.
 - Every tab now uses the inset billboard composition Home already used.
 - `?tv=1` / `?tv=0` / `?tv=auto` on the address force or restore the ten-foot layout.
-- Fixed, from testing on a real Fire TV Stick: the Aâ€“Z rail sitting inside the television's
+- Fixed, from testing on a real Fire TV Stick: the A–Z rail sitting inside the television's
   overscan crop; "#" and "A" falling off the top of the rail; the grid opening a fifth of a
   screen down; the "you are here" letter lagging one behind the selection; the billboard trailer
   playing invisibly while focus was on the library menu; header controls running under the rail.
-- CineDock TV app unchanged (0.2.2) â€” it loads the interface from the container, so existing
+- CineDock TV app unchanged (0.2.2) — it loads the interface from the container, so existing
   installs pick this up on next launch.
 
-## 4.2.1 â€” 14 August 2026
+## 4.2.1 — 14 August 2026
 
 - Fixed Plex poster and backdrop delivery: the photo-transcode request now always supplies both
   width and height, so artwork arrives at the requested display size instead of silently falling
@@ -708,7 +708,7 @@ Major feature release: browse your whole library.
 - Enabled the "Create CineDock smart collections for me" Settings checkbox for Plex owners and
   removed the stale "(coming to Plex)" notice.
 
-## 4.2.0 â€” 13 August 2026
+## 4.2.0 — 13 August 2026
 
 Major feature release.
 
@@ -721,16 +721,16 @@ Major feature release.
   shelf and poster/Spotlight controls. Items can still be added or removed from More Info.
 - Retained the faster Plex artwork delivery introduced in 4.1.7.
 
-## 4.1.7 â€” 12 August 2026
+## 4.1.7 — 12 August 2026
 
 - Fixed Plex poster requests downloading the full original artwork when a small poster was needed.
 - Routed Plex artwork through the photo transcoder, reducing a measured 4.8 MB poster to about
-  33 KB and removing the recurring 20â€“30 second delay while television shelves filled in.
+  33 KB and removing the recurring 20–30 second delay while television shelves filled in.
 - Preserved a fail-soft fallback so artwork still appears if a Plex server cannot transcode it.
 - Kept Emby and Jellyfin artwork handling unchanged because those servers already honour their
   requested image size.
 
-## 4.1.6 â€” 11 August 2026
+## 4.1.6 — 11 August 2026
 
 - Restored transparent navigation over Spotlight artwork at the top of Home, Films and TV.
 - Made navigation and the poster-bleed mask turn true black while browsing shelves and on pages
@@ -742,14 +742,14 @@ Major feature release.
   and Google TV devices are described as expected to work but untested; the incorrect Zidoo support
   claim was removed.
 
-## 4.1.5 â€” 11 August 2026
+## 4.1.5 — 11 August 2026
 
 - Deduplicated simultaneous section requests so the same library work is not repeated in flight.
 - Began warming Films and TV after Home becomes usable, reducing the delay on first opening them.
 - Rendered large browser libraries progressively in four-shelf chunks instead of constructing every
   card before showing the page.
 
-## 4.1.4 â€” 10 August 2026
+## 4.1.4 — 10 August 2026
 
 - Added the approved inset Spotlight presentation on Home and persistent true-black navigation with
   a solid shelf mask.
@@ -758,7 +758,7 @@ Major feature release.
 - Made labels, dates and profile reporting clearer and more accurate.
 - Revised public setup and no-media guidance.
 
-## 4.1.3 â€” 9 August 2026
+## 4.1.3 — 9 August 2026
 
 - Closed the remaining delayed row-preview race so a trailer lookup that finishes after CineDock is
   backgrounded cannot create media or restart sound over another app.
@@ -776,14 +776,14 @@ Major feature release.
 - Made container publication run the complete test suite and a built-image smoke test before
   publishing multi-architecture images from an immutable release tag.
 
-## 4.1.2 â€” 9 August 2026
+## 4.1.2 — 9 August 2026
 
 - Added visibility lifecycle handling so active Spotlight and row trailers stop
   immediately when CineDock is backgrounded. The remaining in-flight row lookup race was closed in
   4.1.3.
 - Added the boot-hidden media sweep for Android TV WebViews opened without foreground visibility.
 
-## 4.1.1 / CineDock TV 0.2.2 â€” 9 August 2026
+## 4.1.1 / CineDock TV 0.2.2 — 9 August 2026
 
 - Added container fields for Plex, Emby and Jellyfin server addresses and credentials, plus TMDB,
   so configured servers can be selected without retyping credentials on the television.
@@ -793,7 +793,7 @@ Major feature release.
 - Expanded plain-English setup, trailer, extras and supported-device guidance.
 - Published CineDock TV version code 4 with the permanent signing identity used by earlier releases.
 
-## 4.1.0 / CineDock TV 0.2.1 â€” 8 August 2026
+## 4.1.0 / CineDock TV 0.2.1 — 8 August 2026
 
 - Reworked Spotlight with a full-bleed presentation.
 - Balanced Spotlight choices across releases, anticipated titles and the wider library instead of
@@ -810,14 +810,14 @@ Major feature release.
 - Added a user guide explaining recognised trailer and extras layouts, playable sources, television
   limitations and media-server rescanning.
 
-## 4.0.2 / CineDock TV 0.2.0 â€” 7 August 2026
+## 4.0.2 / CineDock TV 0.2.0 — 7 August 2026
 
 - Added Plex alongside Emby and Jellyfin, including household users, watch state and collections.
 - Added CineDock TV playback with native audio-track, subtitle, surround and HDR handling.
 - Added television D-pad navigation, guarded exit and public TV setup/help guidance.
 - Published matching AMD64 and ARM64 container images to GHCR and Docker Hub.
 
-## 4.0.1 â€” 7 August 2026
+## 4.0.1 — 7 August 2026
 
 Initial public launch through Unraid Community Applications.
 
