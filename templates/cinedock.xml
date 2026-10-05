@@ -11,6 +11,10 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.10.5 (5 October 2026)
+- One Setup on every screen: a browser or phone opens the same four-tab Setup as the television, headed Set up your big screen; choices follow your profile. Rename Home rows, nested collections can hold your server's franchises, Collections on your server and Playlists in Setup, Show on Home on a playlist's page, and trailer changes act on the trailer that is playing.
+- Fixed: a resting pointer could take focus on a Zidoo; Safari offered Contacts in the collection name box. Container and Windows/Mac 4.10.5; no TV app change.
+
 ### 4.10.4 (5 October2026)
 - Zidoo path substitution: computer/phone Settings maps Windows drive/UNC or Linux server folders to mounted Zidoo folders. Requires Playback Helper1.6.3. Home Theater match first, verified mapped plain video next, stream fallback. An unmatched file retains the plain Info panel.
 - Container and Windows/Mac4.10.4; paired CineDock Zidoo0.2.12/Helper1.6.3. Install the helper first.
