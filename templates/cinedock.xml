@@ -11,6 +11,11 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.12.0 (9 October 2026)
+- Standard TV0.2.12: saved Home/Away connections and Plex, Emby or Jellyfin remote viewing. Requires Android7+; install over the existing app.
+- Streaming/audio and interface fixes, updated Help/About. Turn trailers off on slow connections. Dedicated Zidoo releases unchanged.
+- Step-by-step guide: https://cinedock.tv/setup/remote-viewing
+
 ### 4.11.0 (9 October 2026)
 - Library pages like your server's own: Recommended, Library and Genres on every server; Sort and Filter lists in Plex's words on Plex, Emby and Jellyfin; choose the ticked sort again to reverse it; TV Shows, Seasons and Episodes in a TV library.
 - Collections tab shows your server's collections too; franchises open at once on Emby/Jellyfin; one Back and one gold highlight everywhere; Plex shared-account setup; a stalled Plex start recovers by itself. Container and Windows/Mac 4.11.0; no TV app change.

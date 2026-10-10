@@ -4,6 +4,15 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.12.0 - 9 October 2026
+
+- **Home and away:** standard TV 0.2.12 keeps saved home and Plex/Emby/Jellyfin remote connections, with a clear server/account chooser.
+- **Playback:** 1/2/4/8 Mbps film quality, streaming and Jellyfin audio fixes, and safeguards against duplicate playback. Turn trailers off on slow connections.
+- **Interface:** clearer film buttons, Watchlist and Setup; corrected sorting and Plex counts.
+- **Help:** updated Help/About and a [step-by-step remote viewing guide](https://cinedock.tv/setup/remote-viewing).
+
+Install TV 0.2.12 over the existing app; Android 7+ is required. Dedicated Zidoo releases are unchanged.
+
 ## 4.11.0 - 9 October 2026
 
 **Library pages that work the way your server's own do.** Container and Windows/Mac editions move to 4.11.0; there is no television app change. Every library tab reads **Recommended · Library · Genres**. **Library** has **Sort** and **Filter** lists in Plex's own words on Plex, Emby and Jellyfin, offering only what each server can do; choose the ticked sort again to reverse it (Title Z-A, oldest first, lowest rated first), and titles with no date or rating are left out of a reversed view. In a TV library the first button switches between **TV Shows, Seasons and Episodes**; a season or episode opens its show on that season. The Collections tab lists your server's collections beside your own, franchises open at once on Emby and Jellyfin, Back works the same on every screen, and every highlight is the same gold. A separate Plex account with access to someone else's server can now be set up, and a Plex film that stalls at the start recovers by itself. Fixed: Jellyfin and Emby folded films into their collections; two Genres tiles could show the same film. [What changed in detail](https://github.com/cinedock/downloads/releases/tag/desktop-v4.11.0) · [user guide](https://cinedock.tv/guide#browse).
