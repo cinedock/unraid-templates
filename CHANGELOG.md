@@ -4,6 +4,15 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.13.0 - 16 October 2026
+
+- **A new look on the television:** season posters and an episodes screen for series, one row of buttons on a film, and Poster wall / Quick info / List library views.
+- **Your choice of look:** Black, the highlighted film or thirteen colours behind every page; a Play animation; a Spotlight you can hide or set into the wall.
+- **More:** taglines on Home, episode guest stars, rule-based collections that can leave things out and keep up to date, and Chapters on the film page.
+- **Help** and the [user guide](https://cinedock.tv/guide) cover all of it.
+
+Container and Windows/Mac 4.13.0. No TV app change.
+
 ## 4.12.0 - 9 October 2026
 
 - **Home and away:** standard TV 0.2.12 keeps saved home and Plex/Emby/Jellyfin remote connections, with a clear server/account chooser.

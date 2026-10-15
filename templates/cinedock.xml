@@ -11,6 +11,11 @@
   <Project>https://cinedock.tv</Project>
   <Overview>Rediscover your library. CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.13.0 (16 October 2026)
+- New television look: season posters and an episodes screen for series, one row of film buttons, Poster wall / Quick info / List library views.
+- Choice of background (Black, the highlighted film or thirteen colours), a Play animation, and a Spotlight you can hide or set into the wall. Taglines, episode guest stars, smarter rule-based collections, Chapters on the film page.
+- Container and Windows/Mac 4.13.0; no TV app change. Guide: https://cinedock.tv/guide
+
 ### 4.12.0 (9 October 2026)
 - Standard TV0.2.12: saved Home/Away connections and Plex, Emby or Jellyfin remote viewing. Requires Android7+; install over the existing app.
 - Streaming/audio and interface fixes, updated Help/About. Turn trailers off on slow connections. Dedicated Zidoo releases unchanged.
