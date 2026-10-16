@@ -4,6 +4,13 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.14.0 - 16 October 2026
+
+- **Suggested collections keep up:** one you have added takes in films from its list as you add them to your library, and keeps to its own rule. Sixteen more suggestions, plus Universal Classic Monsters and Alfred Hitchcock.
+- **Studio rules take part of a name:** the studio **Disney** finds every Disney studio.
+- **Feature in Spotlight** works for a collection that is not a Home row; the Spotlight recess reaches the library pages.
+- **Fixed:** the highlighted tab in Setup lost its name.
+
 ## 4.13.0 - 16 October 2026
 
 - **A new look on the television:** season posters and an episodes screen for series, one row of buttons on a film, and Poster wall / Quick info / List library views.
