@@ -4,6 +4,14 @@ This file records user-visible changes in each published CineDock container rele
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.15.0 - 17 October 2026
+
+- **TMDB built in:** film details, cast and artwork your server lacks come from TMDB without a key of your own. A key you enter still takes over.
+- **Disc art in the Play animation**, from a disc image beside the film or from fanart.tv.
+- **Seasonal films and Seasonal backdrop:** near a season its films take the Spotlight and its backdrop frames it, each with an on/off switch (Setup → Layout → Spotlight).
+- **Simpler Setup → Layout**, Charcoal and the Spotlight inset for new profiles, three more suggested collections, and pairs collections that show a film only with its companion.
+- **Fixed:** a collection page on the television could lose the highlight. No TV app change.
+
 ## 4.14.0 - 16 October 2026
 
 - **Suggested collections keep up:** one you have added takes in films from its list as you add them to your library, and keeps to its own rule. Sixteen more suggestions, plus Universal Classic Monsters and Alfred Hitchcock.
