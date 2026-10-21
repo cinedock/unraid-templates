@@ -1,40 +1,40 @@
-# CineDock for Unraid
+# Kinostrata for Unraid
 
 Community Applications metadata, the Unraid Docker template and the portable Docker Compose file
-for CineDock. Also the home page for the CineDock app on the TrueNAS Apps catalogue.
+for Kinostrata. Also the home page for the Kinostrata app on the TrueNAS Apps catalogue.
 
-**Website: <https://cinedock.tv>** — what it looks like, downloads for Windows, Mac and Fire TV, and the
-setup guide. Help, common fixes and reporting a problem: <https://cinedock.tv/support>.
+**Website: <https://kinostrata.com>** — what it looks like, downloads for Windows, Mac and Fire TV, and the
+setup guide. Help, common fixes and reporting a problem: <https://kinostrata.com/support>.
 
 ## Rediscover your library.
 
-**CineDock gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV,
+**Kinostrata gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV,
 on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.**
 
-CineDock is a television-first interface for the Emby, Jellyfin or Plex server you already run. It uses
+Kinostrata is a television-first interface for the Emby, Jellyfin or Plex server you already run. It uses
 your existing server users, libraries, playback, transcoding, watched state and resume positions.
 It does not scan, copy or modify media files.
 
 Since 4.5, the Home screen belongs to each viewer: the **Collections** tab is a picker for
-everything your server offers — your own collections, genres, library rows and CineDock's built-in
+everything your server offers — your own collections, genres, library rows and Kinostrata's built-in
 shelves — switched on and off and reordered per profile. Collections split across several libraries
 are merged into one shelf, and Continue Watching can be moved or switched off like any other.
 
 ## Installation
 
-CineDock is in Unraid Community Applications: open the **Apps** tab, search for **CineDock** and
+Kinostrata is in Unraid Community Applications: open the **Apps** tab, search for **Kinostrata** and
 click **Install**. This repository is the canonical template and submission source.
 
 After installing, open `http://YOUR-UNRAID-IP:8945` and follow the setup wizard.
 
 ## TrueNAS
 
-CineDock is in the official [TrueNAS Apps catalogue](https://apps.truenas.com/catalog/cinedock_community/)
+Kinostrata is in the official [TrueNAS Apps catalogue](https://apps.truenas.com/catalog/cinedock_community/)
 (Community train, added 17 August 2026). On TrueNAS open **Apps > Discover Apps**, search for
-**CineDock** and choose **Install**. Leave the WebUI port at the default `31080` (or pick another
+**Kinostrata** and choose **Install**. Leave the WebUI port at the default `31080` (or pick another
 free port), keep the default ixVolume for configuration storage, then open the app's **Web Portal**
 or `http://YOUR-TRUENAS-IP:31080` and follow the setup wizard. Full walkthrough:
-<https://cinedock.tv/guide>.
+<https://kinostrata.com/guide>.
 
 ## Docker Compose and other platforms
 
@@ -46,7 +46,7 @@ docker compose up -d
 
 Open `http://YOUR-DOCKER-HOST:8945` and follow the setup wizard. The same Compose file can be used
 as a Portainer Stack, a Synology Container Manager Project, or a QNAP Container Station
-Application. CineDock's settings are retained in the `cinedock_config` Docker volume.
+Application. Kinostrata's settings are retained in the `cinedock_config` Docker volume.
 
 Optional server/credential pairs (`EMBY_SERVER_URL` + `EMBY_API_KEY`, `JELLYFIN_SERVER_URL` +
 `JELLYFIN_API_KEY`, or advanced `PLEX_SERVER_URL` + `PLEX_TOKEN`) keep
@@ -67,7 +67,7 @@ The CasaOS package has passed its local validator and is awaiting inclusion thro
 
 ## Release history
 
-See the [CineDock changelog](CHANGELOG.md) for user-visible changes in every published container
+See the [Kinostrata changelog](CHANGELOG.md) for user-visible changes in every published container
 release since the Unraid Community Applications launch.
 
 ## Support
@@ -77,12 +77,12 @@ installation, template and application support.
 
 ## Fire TV / Shield / Zidoo app
 
-The CineDock TV app is published separately at
-[CineDock Downloads](https://github.com/cinedock/downloads/releases). It is tested on Amazon Fire TV
+The Kinostrata TV app is published separately at
+[Kinostrata Downloads](https://github.com/cinedock/downloads/releases). It is tested on Amazon Fire TV
 devices, NVIDIA Shield TV and the Zidoo Z9X 8K (on a Zidoo, from app 0.2.4 with container 4.3.3, it
 plays through the box's own player).
 
 ## Support development
 
-CineDock is free. If it is useful to you, you can optionally
+Kinostrata is free. If it is useful to you, you can optionally
 [support its continued development](https://buymeacoffee.com/cinedock).

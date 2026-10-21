@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <CommunityApplications>
-  <Profile>CineDock maintains a television-first Emby, Jellyfin and Plex interface for Unraid. This repository contains the official Community Applications template and public support tracker.</Profile>
+  <Profile>Kinostrata maintains a television-first Emby, Jellyfin and Plex interface for Unraid. This repository contains the official Community Applications template and public support tracker.</Profile>
   <Icon>https://raw.githubusercontent.com/cinedock/unraid-templates/main/cinedock-icon.png</Icon>
-  <WebPage>https://cinedock.tv</WebPage>
-  <Forum>https://cinedock.tv/support</Forum>
+  <WebPage>https://kinostrata.com</WebPage>
+  <Forum>https://kinostrata.com/support</Forum>
 </CommunityApplications>

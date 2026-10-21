@@ -1,8 +1,15 @@
-# CineDock changelog
+# Kinostrata changelog
 
-This file records user-visible changes in each published CineDock container release, beginning with
+This file records user-visible changes in each published Kinostrata container release, beginning with
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
+
+## 4.16.0 - 21 October 2026
+
+- **CineDock is now Kinostrata:** the new name on every screen, in Help and Setup, in the desktop app and at [kinostrata.com](https://kinostrata.com). Settings, sign-ins, profiles and collections carry over.
+- **Nothing to change in Unraid:** the container keeps its image (`ghcr.io/cinedock/cinedock`) and config folder, so it updates as usual.
+- **TV apps:** Kinostrata 0.2.13 (Fire TV, Shield), Kinostrata Zidoo 0.2.14 and Kinostrata Playback Helper 1.6.7. Install over the existing apps; on a Zidoo, the helper first.
+- **Fixed:** no scroll bar down the right of the television screen while a page loads; on a Zidoo the Connect screen stays above the keyboard.
 
 ## 4.15.0 - 17 October 2026
 
