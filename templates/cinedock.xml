@@ -11,6 +11,11 @@
   <Project>https://kinostrata.com</Project>
   <Overview>Rediscover your library. Kinostrata gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.17.0 (29 October 2026)
+- Search on a television opens on Kinostrata's own letter grid, so the TV keyboard no longer covers the page.
+- Feature in Spotlight from a collection's own page; Franchises and Collections sort A-Z without a leading The, A or An.
+- Plex subtitles start with the track Plex has chosen for you. No TV app change. Guide: https://kinostrata.com/guide
+
 ### 4.16.0 (21 October 2026)
 - CineDock is now Kinostrata: the new name on every screen, in the desktop app and at https://kinostrata.com. Settings, sign-ins, profiles and collections carry over.
 - Nothing to change here: same image, same config folder, update as usual. TV apps: Kinostrata 0.2.13, Kinostrata Zidoo 0.2.14 + Playback Helper 1.6.7; install over the old apps.

@@ -4,6 +4,15 @@ This file records user-visible changes in each published Kinostrata container re
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.17.0 - 29 October 2026
+
+- **Search on a television** opens on Kinostrata's own letter grid, so the TV's keyboard no longer covers the page.
+- **Feature in Spotlight** from a collection's own page; press it again to go back to the usual mix.
+- **Franchises and Collections** sort A–Z without a leading The, A or An.
+- **Plex subtitles** start with the track Plex has chosen for you, instead of none.
+- **Spotlight:** a still picture no longer fades at the bottom.
+- Also published as `ghcr.io/kinostrata/kinostrata`; this template keeps its image and updates as usual. No TV app change.
+
 ## 4.16.0 - 21 October 2026
 
 - **CineDock is now Kinostrata:** the new name on every screen, in Help and Setup, in the desktop app and at [kinostrata.com](https://kinostrata.com). Settings, sign-ins, profiles and collections carry over.
