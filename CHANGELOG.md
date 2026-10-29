@@ -4,6 +4,10 @@ This file records user-visible changes in each published Kinostrata container re
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.17.1 - 29 October 2026
+
+- **Fixed:** the seasonal Home (such as Halloween) could disappear for up to ten minutes once a day, while Kinostrata refreshed its daily film list. No TV app change.
+
 ## 4.17.0 - 29 October 2026
 
 - **Search on a television** opens on Kinostrata's own letter grid, so the TV's keyboard no longer covers the page.
