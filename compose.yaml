@@ -13,6 +13,9 @@ services:
       JELLYFIN_API_KEY: "${JELLYFIN_API_KEY:-}"
       PLEX_SERVER_URL: "${PLEX_SERVER_URL:-}"
       PLEX_TOKEN: "${PLEX_TOKEN:-}"
+      # Optional: run as this user instead of root (Unraid: 99 and 100). /config is handed to it on first start.
+      PUID: "${PUID:-}"
+      PGID: "${PGID:-}"
     volumes:
       - cinedock_config:/config
 

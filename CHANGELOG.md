@@ -4,6 +4,15 @@ This file records user-visible changes in each published Kinostrata container re
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.18.0 - 4 November 2026
+
+- **Faster page loads on the television:** the page and every list are compressed on the way to the TV (about a megabyte becomes a quarter of that). Playback is untouched.
+- **Fixed:** a television left on kept the seasonal Home after the season ended. Home is re-read on a new day, so the Halloween look leaves by itself.
+- **Christmas films stay out of the Spotlight until the Christmas shelf opens on 15 December;** Setup → Layout → Spotlight: Seasonal films and Seasonal backdrop read Auto or Off.
+- **A Plex link in progress survives a container restart.**
+- **Run as a user of your choice:** set `PUID` and `PGID` (Unraid: 99 and 100, under Advanced) and the container hands its config folder to that user and runs as it. Unset, nothing changes.
+- The container serves with waitress (a production web server), reports its health to Docker, and its libraries are updated (Pillow 13 among them). No TV app change.
+
 ## 4.17.1 - 29 October 2026
 
 - **Fixed:** the seasonal Home (such as Halloween) could disappear for up to ten minutes once a day, while Kinostrata refreshed its daily film list. No TV app change.

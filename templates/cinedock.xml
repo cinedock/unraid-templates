@@ -11,6 +11,11 @@
   <Project>https://kinostrata.com</Project>
   <Overview>Rediscover your library. Kinostrata gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.18.0 (4 November 2026)
+- Faster page loads on the television: pages and lists are compressed on the way to the TV. Playback untouched.
+- Fixed: a television left on kept the seasonal Home after the season ended. Christmas films stay out of the Spotlight until 15 December; the two Seasonal switches read Auto or Off.
+- Optional PUID / PGID (Advanced, 99 and 100): run as that user instead of root; unset, nothing changes. Production web server (waitress), Docker health check, libraries updated. No TV app change.
+
 ### 4.17.1 (29 October 2026)
 - Fixed: the seasonal Home (such as Halloween) could disappear for up to ten minutes once a day. No TV app change.
 
