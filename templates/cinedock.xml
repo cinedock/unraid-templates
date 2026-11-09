@@ -11,6 +11,9 @@
   <Project>https://kinostrata.com</Project>
   <Overview>Rediscover your library. Kinostrata gives Plex, Emby or Jellyfin an enhanced browsing experience on the NVIDIA Shield TV, on an Amazon Fire TV Stick, on Zidoo media players, or in a browser on your computer or tablet.</Overview>
   <Changes>
+### 4.19.0 (9 November 2026)
+- New: an Update tab beside Setup on a television when a newer TV app exists. Plex libraries over 10,000 titles are read in full. "Who's watching" and Plex collection pages are faster; scene stills are ready sooner. TV app 0.2.15 is published with it (install over the old app); Zidoo unchanged.
+
 ### 4.18.0 (4 November 2026)
 - Faster page loads on the television: pages and lists are compressed on the way to the TV. Playback untouched.
 - Fixed: a television left on kept the seasonal Home after the season ended. Christmas films stay out of the Spotlight until 15 December; the two Seasonal switches read Auto or Off.

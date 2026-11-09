@@ -4,6 +4,13 @@ This file records user-visible changes in each published Kinostrata container re
 the Unraid Community Applications launch. Earlier builds were internal development versions and are
 not part of the public release history. Git commit history remains the technical audit trail.
 
+## 4.19.0 - 9 November 2026
+
+- **An Update tab beside Setup.** On a television, when a newer Kinostrata TV app is published, an Update tab appears at the top, between the menu and your name; with nothing to update it is not shown. Press OK to update. A TV app older than 0.2.10 cannot update itself, so the tab shows the steps on screen. On Windows and Mac it opens the download page.
+- **Plex libraries of more than 10,000 titles are read in full:** film copies, More Like This, person pages and suggestions no longer miss the rest of a large library.
+- **Faster and clearer:** "Who's watching" opens at once, a Plex collection's later pages are instant, scene stills are ready sooner, made-up Emby chapters show as times, and a title that will not open says so.
+- **TV app 0.2.15 (Fire TV and Shield) is published with it:** pressing Update downloads the update and opens Android's install screen at once. Install it over the old app. Kinostrata Zidoo is unchanged.
+
 ## 4.18.0 - 4 November 2026
 
 - **Faster page loads on the television:** the page and every list are compressed on the way to the TV (about a megabyte becomes a quarter of that). Playback is untouched.
