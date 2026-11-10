@@ -1,0 +1,70 @@
+name: Kinostrata (server and web page)
+description: A problem or an idea for the Kinostrata container, its setup or its web page.
+title: "[Kinostrata]: "
+labels: ["kinostrata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One problem or idea per report. **Never paste passwords, API keys, access tokens, server addresses or complete configuration files.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Kinostrata version
+      description: Shown in Kinostrata, or on the Docker image tag.
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How is it installed?
+      options: [Unraid Community Applications, TrueNAS, Docker or Docker Compose, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex, Not connected yet]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing the container, Container start, Opening the web page, Connecting the media server, Choosing a user, Loading the library, Home or browsing, Playing in the browser, Updating, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and the exact message shown. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Select…\n3. See…"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Container log lines
+      description: Optional. Paste only the lines around the error, with secrets and addresses removed.
+      render: shell
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and server addresses.
+          required: true

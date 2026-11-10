@@ -1,0 +1,75 @@
+name: Kinostrata TV app (Fire TV, Shield, Android TV)
+description: A problem or an idea for the Kinostrata TV app, including installing, the remote, playback, audio and subtitles.
+title: "[TV app]: "
+labels: ["tv-app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One problem or idea per report. On a Zidoo, use the **Kinostrata Zidoo** form instead. **Never paste passwords, API keys, access tokens or server addresses.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: TV device
+      options: [Fire TV, Nvidia Shield, Android TV, Google TV, Other Android-based player]
+    validations:
+      required: true
+  - type: input
+    id: device_model
+    attributes:
+      label: Device model
+      placeholder: Fire TV Stick 4K Max
+    validations:
+      required: true
+  - type: input
+    id: apk_version
+    attributes:
+      label: Kinostrata TV app version
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing or updating the app, Connecting to Kinostrata, Remote or D-pad, Home or browsing, Video playback, Audio or audio tracks, Subtitles, Chapters or seeking, HDR or Dolby Vision, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and whether the same title plays in your media server's own app. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media details
+      description: Optional. Codec, resolution, HDR type, audio format and channels, subtitle format. Leave out file names that contain private information.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Play…\n3. Select…"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and server addresses.
+          required: true

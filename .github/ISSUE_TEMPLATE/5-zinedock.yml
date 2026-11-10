@@ -1,0 +1,74 @@
+name: Zinedock (Zidoo Z9X 8K)
+description: A problem or an idea for Zinedock, the standalone home screen for the Zidoo Z9X 8K.
+title: "[Zinedock]: "
+labels: ["zinedock"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For the original Zidoo Z9X, use the **Zinedock Z9X** form. One problem or idea per report. **Never paste passwords, API keys, access tokens or the setup code shown on the TV.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Zidoo model
+      placeholder: Z9X 8K
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Zidoo firmware version
+    validations:
+      required: true
+  - type: input
+    id: home_theater
+    attributes:
+      label: Home Theater version
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Zinedock version
+    validations:
+      required: true
+  - type: input
+    id: helper_version
+    attributes:
+      label: Playback Helper version
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing or updating, Home, Films or Television views, Film or series page, Collections, Set up from a computer, Playback or resume, Trailers, Settings or backup, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and whether Home Theater does the same. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Select…\n3. See…"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and addresses.
+          required: true

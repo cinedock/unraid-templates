@@ -1,0 +1,75 @@
+name: Kinostrata Zidoo
+description: A problem or an idea for the Kinostrata app on a Zidoo, which plays through the Zidoo's own player and Playback Helper.
+title: "[Kinostrata Zidoo]: "
+labels: ["kinostrata-zidoo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for the Kinostrata app, which needs a Kinostrata server. For the standalone app with no server, use the **Zinedock** form. One problem or idea per report. **Never paste passwords, API keys, access tokens or server addresses.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Zidoo model
+      placeholder: Z9X 8K
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Zidoo firmware version
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Kinostrata Zidoo version
+    validations:
+      required: true
+  - type: input
+    id: helper_version
+    attributes:
+      label: Playback Helper version
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing or updating, Connecting to Kinostrata, Remote or D-pad, Home or browsing, Starting playback, Audio or subtitles, Resume or Continue Watching, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and whether the same file plays in Zidoo's own Home Theater. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Play…\n3. See…"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and server addresses.
+          required: true

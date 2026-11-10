@@ -1,0 +1,61 @@
+name: Zinedock Z9X (original Zidoo Z9X)
+description: A problem or an idea for Zinedock Z9X, the standalone home screen for the original Zidoo Z9X.
+title: "[Zinedock Z9X]: "
+labels: ["zinedock-z9x"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For the Zidoo Z9X 8K, use the **Zinedock** form. One problem or idea per report. **Never paste passwords, API keys, access tokens or the setup code shown on the TV.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Zidoo firmware version
+    validations:
+      required: true
+  - type: input
+    id: home_theater
+    attributes:
+      label: Home Theater version
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Zinedock Z9X version
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing or updating, Home, Film or series page, Collections, Set up from a computer, Playback or resume, Settings or backup, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and whether Home Theater does the same. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Select…\n3. See…"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and addresses.
+          required: true

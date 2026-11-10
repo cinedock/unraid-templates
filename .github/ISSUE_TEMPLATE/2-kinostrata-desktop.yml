@@ -1,0 +1,64 @@
+name: Kinostrata Desktop
+description: A problem or an idea for the Kinostrata Desktop app on Windows or macOS.
+title: "[Desktop]: "
+labels: ["desktop"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One problem or idea per report. **Never paste passwords, API keys, access tokens or server addresses.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a problem or an idea?
+      options: [Something is not working, An idea or improvement]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Kinostrata Desktop version
+      description: Shown in the app, or in the name of the file you downloaded.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Computer
+      options: [Windows, macOS (Apple Silicon), macOS (Intel)]
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Media server
+      options: [Emby, Jellyfin, Plex, Not connected yet]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options: [Installing or opening the app, Connecting the media server, Choosing a user, Home or browsing, Playback, Updating, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, or what would you like?
+      description: For a problem, say what you expected and the exact message shown. For an idea, say what you would like it to do and when you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a problem only.
+      placeholder: "1. Open…\n2. Select…\n3. See…"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, API keys, tokens and server addresses.
+          required: true
